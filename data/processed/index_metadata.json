@@ -51,6 +51,6 @@
   ],
   "gemini_configured": true,
   "semantic_available": true,
-  "semantic_status": "Mode semantik aktif (Gemini gemini-embedding-001 untuk FROTI & BPOM)",
-  "semantic_reason": "Mode semantik aktif menggunakan Google Gemini Embedding (gemini-embedding-001) pada 19 ramuan FROTI/terkurasi (dimensi [19, 3072]) dan 9 sumber BPOM (dimensi [9, 3072]), serta tervalidasi dengan matriks Colab bpom_semantic_embeddings.npy (9x384)."
+  "semantic_status": "Mode semantik aktif",
+  "semantic_reason": "Menggunakan model sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 untuk ramuan FROTI (19 entri) dan sumber BPOM ([9, 384])."
 }

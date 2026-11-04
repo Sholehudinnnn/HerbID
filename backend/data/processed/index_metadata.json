@@ -1,0 +1,56 @@
+{
+  "source_count": 9,
+  "recipe_count": 19,
+  "froti_recipe_count": 19,
+  "source_ids": [
+    "BPOM-01",
+    "BPOM-02",
+    "BPOM-03",
+    "BPOM-04",
+    "BPOM-05",
+    "BPOM-06",
+    "BPOM-07",
+    "BPOM-08",
+    "BPOM-09"
+  ],
+  "recipe_codes": [
+    "FROTI-001",
+    "FROTI-002",
+    "FROTI-003",
+    "FROTI-004",
+    "FROTI-005",
+    "FROTI-006",
+    "FROTI-007",
+    "FROTI-008",
+    "FROTI-009",
+    "FROTI-010",
+    "FROTI-011",
+    "FROTI-012",
+    "FROTI-013",
+    "FROTI-014",
+    "FROTI-015",
+    "FROTI-016",
+    "FROTI-017",
+    "FROTI-018",
+    "FROTI-019"
+  ],
+  "corpus_sha256": "eb848c6453980d2fd2b3293bf6fcda663731efbb34a65b7df915492a42710de1",
+  "sklearn_version": "1.9.1",
+  "tfidf_ready": true,
+  "recipe_tfidf_ready": true,
+  "semantic_model_name": "Google Gemini Embedding (gemini-embedding-001)",
+  "semantic_embeddings_present": true,
+  "semantic_embeddings_shape": [
+    9,
+    384
+  ],
+  "recipe_semantic_embeddings_present": true,
+  "recipe_semantic_embeddings_shape": [
+    19,
+    3072
+  ],
+  "gemini_configured": true,
+  "semantic_available": true,
+  "semantic_status": "Mode semantik aktif",
+  "semantic_reason": "Menggunakan model sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 untuk ramuan FROTI (19 entri) dan sumber BPOM ([9, 384])."
+}

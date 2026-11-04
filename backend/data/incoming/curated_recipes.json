@@ -1,0 +1,476 @@
+[
+  {
+    "recipe_code": "RAMUAN-01",
+    "slug": "jamu-kunyit-asam",
+    "nama_ramuan": "Jamu Kunyit Asam Tradisional",
+    "keluhan_terkait": "Nyeri haid (dismenore), kram menstruasi, sariawan, dan pemeliharaan daya tahan tubuh",
+    "deskripsi": "Ramuan minuman tradisional Indonesia berbahan dasar sari rimpang kunyit segar (Curcuma longa) dan asam jawa yang direbus bersama gula merah/aren. Dokumentasi komposisi dan langkah pembuatan berasal dari entri Q&A #30 dan #6 pada dataset etnomedisin serta dipetakan terhadap standar mutu bahan baku BPOM-09.",
+    "cara_menyiapkan_bahan": "Pilih rimpang kunyit segar yang tidak busuk, cuci bersih tanah yang menempel di bawah air mengalir, lalu tiriskan sebelum diparut atau diblender.",
+    "kelompok_tidak_dianjurkan": "Ibu hamil (terutama trimester awal karena sifat stimulasi rahim pada konsumsi pekat), penderita batu empedu atau sumbatan saluran empedu, serta pasien yang sedang mengonsumsi obat pengencer darah (antikoagulan).",
+    "status_verifikasi": "Terkurasi dari Dataset Riset (Q&A #30) & Rujukan Bahan Baku BPOM-09",
+    "sumber_url": "https://repository.kemkes.go.id/book/352",
+    "sumber_halaman": "Q&A Entri #30 & #6 (Calon Struktur: FROTI Kemenkes RI)",
+    "reviewer": "Tim Kurasi Data HERB-INFO AI",
+    "tanggal_review": "2026-10-25",
+    "peringatan": "Takaran bahan di bawah adalah takaran pembuatan minuman jamu rumah tangga menurut sumber dataset (1 liter rebusan), bukan dosis pengobatan personal. Hindari penggunaan berlebihan setiap hari tanpa jeda.",
+    "kontraindikasi": "Kontraindikasi pada gangguan kandung empedu akut, hipersensitivitas terhadap tanaman famili Zingiberaceae, dan penggunaan bersamaan dengan obat pengencer darah (warfarin/aspirin) tanpa pengawasan dokter.",
+    "ingredients": [
+      {
+        "nama_bahan": "Rimpang Kunyit Segar (Curcuma longa)",
+        "jumlah": "200",
+        "satuan": "gram",
+        "catatan": "Diparut atau diblender lalu diperas sarinya (Q&A #30)"
+      },
+      {
+        "nama_bahan": "Asam Jawa (Tamarindus indica)",
+        "jumlah": "100",
+        "satuan": "gram",
+        "catatan": "Bahan pemberi rasa asam segar alami (Q&A #30)"
+      },
+      {
+        "nama_bahan": "Gula Merah / Gula Aren",
+        "jumlah": "150",
+        "satuan": "gram",
+        "catatan": "Dapat disesuaikan bila membatasi asupan gula (Q&A #30)"
+      },
+      {
+        "nama_bahan": "Garam Dapur",
+        "jumlah": "Secukupnya",
+        "satuan": "jumput",
+        "catatan": "Penyeimbang rasa rebusan (Q&A #30)"
+      },
+      {
+        "nama_bahan": "Air Bersih",
+        "jumlah": "1",
+        "satuan": "liter",
+        "catatan": "Pelarut perebusan (Q&A #30)"
+      }
+    ],
+    "steps": [
+      {
+        "nomor_langkah": 1,
+        "deskripsi_langkah": "Cuci bersih 200 gram rimpang kunyit segar, kemudian parut atau blender dengan sedikit air matang dan peras/saring untuk mengambil sari kunyit."
+      },
+      {
+        "nomor_langkah": 2,
+        "deskripsi_langkah": "Didihkan 1 liter air bersih di dalam panci non-reaktif (stainless steel atau kaca/keramik)."
+      },
+      {
+        "nomor_langkah": 3,
+        "deskripsi_langkah": "Masukkan perasan sari kunyit, 100 gram asam jawa, 150 gram gula merah/aren, dan sejumput garam ke dalam rebusan air."
+      },
+      {
+        "nomor_langkah": 4,
+        "deskripsi_langkah": "Aduk perlahan dan masak hingga mendidih serta seluruh asam jawa dan gula larut merata."
+      },
+      {
+        "nomor_langkah": 5,
+        "deskripsi_langkah": "Matikan api, saring cairan jamu ke dalam wadah bersih, dan sajikan hangat atau dingin."
+      }
+    ],
+    "usages": [
+      {
+        "aturan_penggunaan_dari_sumber": "Menurut dokumentasi Q&A #30 pada dataset penelitian, jamu kunyit asam hasil olahan ini dikonsumsi secara tradisional sebanyak 1 gelas per hari. Keterangan ini adalah dokumentasi cara konsumsi minuman tradisional dari sumber, bukan resep dosis medis individual.",
+        "status_review_penggunaan": "DIPERIKSA_MANUAL_LAYAK_TAMPIL_EDUKASI",
+        "boleh_ditampilkan_publik": true
+      }
+    ],
+    "sources": [
+      {
+        "nama_referensi": "Standar Mutu Bahan Baku Obat Bahan Alam (Kunyit & Temulawak)",
+        "instansi": "BPOM RI",
+        "url": "https://standar-otskk.pom.go.id/",
+        "halaman": "Entri Rujukan BPOM-09 & BPOM-08",
+        "status_validasi": "RUJUKAN_RESMI_BPOM"
+      },
+      {
+        "nama_referensi": "Formularium Ramuan Obat Tradisional Indonesia (FROTI) - KMK Nomor HK.01.07/MENKES/187/2017",
+        "instansi": "Kementerian Kesehatan RI",
+        "url": "https://repository.kemkes.go.id/book/352",
+        "halaman": "Referensi Regulasi Struktur Ramuan (Q&A #30)",
+        "status_validasi": "CALON_REFERENSI_TERSTRUKTUR_KEMENKES"
+      }
+    ]
+  },
+  {
+    "recipe_code": "RAMUAN-02",
+    "slug": "rebusan-batang-brotowali",
+    "nama_ramuan": "Rebusan Tradisional Batang Brotowali",
+    "keluhan_terkait": "Demam (antipiretik tradisional), badan meriang, dan penurun panas tradisional",
+    "deskripsi": "Ramuan rebusan batang brotowali (Tinospora crispa) yang dikenal dalam pengobatan tradisional Nusantara karena kandungan senyawa pahit pikroretin, berberin, dan tinokrisposid. Secara empiris digunakan terkait keluhan demam dan pemulihan nafsu makan.",
+    "cara_menyiapkan_bahan": "Gunakan potongan batang brotowali yang telah dicuci bersih dengan air mengalir untuk menghilangkan kotoran pada permukaan kulit batang yang berbenjol.",
+    "kelompok_tidak_dianjurkan": "Ibu hamil, ibu menyusui, bayi dan anak kecil, serta penderita gangguan fungsi hati atau hipoglikemia.",
+    "status_verifikasi": "Dokumentasi Tradisional Dataset (Q&A #44) - Perlu Verifikasi Klinis Lanjutan",
+    "sumber_url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes1872017",
+    "sumber_halaman": "Q&A Entri #44 & #19",
+    "reviewer": "Tim Kurasi Data HERB-INFO AI",
+    "tanggal_review": "2026-10-25",
+    "peringatan": "Demam dapat disebabkan oleh berbagai infeksi virus atau bakteri dan tidak dapat didiagnosis hanya dari keluhan singkat. Jangan gunakan rebusan brotowali untuk menggantikan pemeriksaan dokter pada demam tinggi (>39 derajat C) atau demam lebih dari 3 hari.",
+    "kontraindikasi": "Dilarang digunakan pada kehamilan, gangguan fungsi hati/ginjal berat, atau dikombinasikan bersama obat antidiabetes resep tanpa pemantauan gula darah oleh dokter.",
+    "ingredients": [
+      {
+        "nama_bahan": "Batang Brotowali (Tinospora crispa)",
+        "jumlah": "Secukupnya (potongan batang)",
+        "satuan": "batang",
+        "catatan": "Ukuran gramasi spesifik belum tercantum dalam Q&A #44"
+      },
+      {
+        "nama_bahan": "Air Bersih",
+        "jumlah": "3",
+        "satuan": "gelas",
+        "catatan": "Direbus hingga menyusut tersisa 1 gelas (Q&A #44)"
+      }
+    ],
+    "steps": [
+      {
+        "nomor_langkah": 1,
+        "deskripsi_langkah": "Cuci bersih potongan batang brotowali di bawah air mengalir."
+      },
+      {
+        "nomor_langkah": 2,
+        "deskripsi_langkah": "Masukkan potongan batang brotowali ke dalam panci berisi 3 gelas air bersih."
+      },
+      {
+        "nomor_langkah": 3,
+        "deskripsi_langkah": "Rebus dengan api sedang hingga volume air menyusut menjadi sekitar 1 gelas."
+      },
+      {
+        "nomor_langkah": 4,
+        "deskripsi_langkah": "Angkat, biarkan hangat, dan saring air rebusan ke dalam gelas."
+      }
+    ],
+    "usages": [
+      {
+        "aturan_penggunaan_dari_sumber": "Catatan Q&A #44 menyebutkan air rebusan (1 gelas) diminum 2 kali sehari, namun gramasi berat batang brotowali belum terstandar pada sumber tersebut sehingga aturan konsumsi ditahan menunggu verifikasi silang dokumen FROTI.",
+        "status_review_penggunaan": "MENUNGGU_VERIFIKASI_REVIEWER_KOMPETEN",
+        "boleh_ditampilkan_publik": false
+      }
+    ],
+    "sources": [
+      {
+        "nama_referensi": "Pedoman Penggunaan Obat Bahan Alam yang Aman dan Rasional",
+        "instansi": "BPOM RI",
+        "url": "https://www.pom.go.id/",
+        "halaman": "Entri Rujukan BPOM-04 & BPOM-08",
+        "status_validasi": "RUJUKAN_RESMI_BPOM"
+      },
+      {
+        "nama_referensi": "Keputusan Menteri Kesehatan RI Nomor HK.01.07/MENKES/187/2017 tentang FROTI",
+        "instansi": "Kementerian Kesehatan RI",
+        "url": "https://jdih.kemkes.go.id/documents/keputusan-menteri-kesehatan-nomor-hk0107menkes1872017",
+        "halaman": "Calon Referensi Struktur Ramuan Demam",
+        "status_validasi": "CALON_REFERENSI_TERSTRUKTUR_KEMENKES"
+      }
+    ]
+  },
+  {
+    "recipe_code": "RAMUAN-03",
+    "slug": "jamu-beras-kencur",
+    "nama_ramuan": "Jamu Beras Kencur Tradisional",
+    "keluhan_terkait": "Batuk, tenggorokan gatal, pegal-pegal ringan, dan pemulihan kebugaran",
+    "deskripsi": "Ramuan jamu gendong populer di Indonesia yang memadukan rimpang kencur segar (Kaempferia galanga) dan beras yang telah direndam, ditambah gula merah dan asam jawa. Kencur mengandung minyak atsiri etil p-metoksisinamat yang secara tradisional berkaitan dengan keluhan batuk dan tenggorokan.",
+    "cara_menyiapkan_bahan": "Cuci bersih beras lalu rendam dalam air matang bersih; kupas dan cuci bersih rimpang kencur segar sebelum dihaluskan.",
+    "kelompok_tidak_dianjurkan": "Bayi di bawah usia 1 tahun, penderita diabetes melitus yang harus membatasi gula merah, serta individu dengan alergi terhadap tanaman famili Zingiberaceae.",
+    "status_verifikasi": "Terkurasi dari Dataset Riset (Q&A #8 & #9) & Rujukan Topik BPOM-08",
+    "sumber_url": "https://www.pom.go.id/",
+    "sumber_halaman": "Q&A Entri #8 & #9; Rujukan BPOM-08",
+    "reviewer": "Tim Kurasi Data HERB-INFO AI",
+    "tanggal_review": "2026-10-25",
+    "peringatan": "Pastikan seluruh peralatan parut/blender dan air yang digunakan bersih dan matang sesuai pedoman higiene jamu gendong BPOM-08. Apabila batuk berlangsung lebih dari 2 minggu atau disertai sesak napas dan demam tinggi, segera periksakan ke dokter.",
+    "kontraindikasi": "Hindari penambahan gula merah berlebih pada penderita hiperglikemia/diabetes. Jangan gunakan sebagai pengganti terapi medis pada infeksi saluran napas bawah (seperti pneumonia atau TBC).",
+    "ingredients": [
+      {
+        "nama_bahan": "Rimpang Kencur Segar (Kaempferia galanga)",
+        "jumlah": "Belum tercantum di sumber",
+        "satuan": "rimpang",
+        "catatan": "Bahan utama pemberi aroma dan ekspektoran tradisional (Q&A #8 & #9)"
+      },
+      {
+        "nama_bahan": "Beras Putih Bersih",
+        "jumlah": "Belum tercantum di sumber",
+        "satuan": "genggam",
+        "catatan": "Direndam air bersih terlebih dahulu lalu dihaluskan (Q&A #9)"
+      },
+      {
+        "nama_bahan": "Gula Merah / Gula Aren",
+        "jumlah": "Secukupnya",
+        "satuan": "gram",
+        "catatan": "Pemanis tradisional (Q&A #9)"
+      },
+      {
+        "nama_bahan": "Asam Jawa",
+        "jumlah": "Secukupnya",
+        "satuan": "ruas",
+        "catatan": "Penyeimbang rasa segar (Q&A #9)"
+      }
+    ],
+    "steps": [
+      {
+        "nomor_langkah": 1,
+        "deskripsi_langkah": "Rendam beras putih yang telah dicuci bersih di dalam air matang selama beberapa jam hingga teksturnya melunak."
+      },
+      {
+        "nomor_langkah": 2,
+        "deskripsi_langkah": "Cuci bersih rimpang kencur segar, lalu rebus air bersama gula merah dan sedikit asam jawa hingga larut dan mendidih."
+      },
+      {
+        "nomor_langkah": 3,
+        "deskripsi_langkah": "Haluskan (tumbuk atau blender) rimpang kencur bersama beras yang telah direndam, lalu tuangkan air rebusan gula merah hangat."
+      },
+      {
+        "nomor_langkah": 4,
+        "deskripsi_langkah": "Peras dan saring campuran tersebut menggunakan saringan kain bersih hingga diperoleh cairan jamu beras kencur."
+      }
+    ],
+    "usages": [
+      {
+        "aturan_penggunaan_dari_sumber": null,
+        "status_review_penggunaan": "TAKARAN_BELUM_TERSEDIA_PADA_SUMBER_TERVERIFIKASI",
+        "boleh_ditampilkan_publik": false
+      }
+    ],
+    "sources": [
+      {
+        "nama_referensi": "Pendampingan dan Pembinaan Pelaku Usaha Jamu Gendong",
+        "instansi": "BPOM RI",
+        "url": "https://www.pom.go.id/",
+        "halaman": "Entri Rujukan BPOM-08",
+        "status_validasi": "RUJUKAN_RESMI_BPOM"
+      },
+      {
+        "nama_referensi": "Formularium Ramuan Obat Tradisional Indonesia (FROTI)",
+        "instansi": "Kementerian Kesehatan RI",
+        "url": "https://repository.kemkes.go.id/book/352",
+        "halaman": "Referensi Struktur Ramuan Batuk & Kebugaran",
+        "status_validasi": "CALON_REFERENSI_TERSTRUKTUR_KEMENKES"
+      }
+    ]
+  },
+  {
+    "recipe_code": "RAMUAN-04",
+    "slug": "rebusan-daun-jambu-biji",
+    "nama_ramuan": "Rebusan Daun Jambu Biji Muda",
+    "keluhan_terkait": "Diare ringan, buang air besar cair, dan gangguan saluran pencernaan",
+    "deskripsi": "Ramuan rebusan pucuk atau daun jambu biji muda (Psidium guajava) yang kaya akan senyawa tanin (astringen pemadat tinja) dan flavonoid quercetin. Dokumentasi pembuatan berasal dari entri Q&A #33 pada dataset penelitian.",
+    "cara_menyiapkan_bahan": "Pilih 5-7 lembar daun jambu biji muda yang utuh dan tidak berlubang, cuci bersih di bawah air mengalir.",
+    "kelompok_tidak_dianjurkan": "Bayi dan balita yang mengalami dehidrasi, penderita konstipasi (sembelit) kronis, serta pasien dengan disentri berdarah yang memerlukan antibiotik medis.",
+    "status_verifikasi": "Terkurasi dari Dataset Riset (Q&A #33)",
+    "sumber_url": "https://repository.kemkes.go.id/book/352",
+    "sumber_halaman": "Q&A Entri #33",
+    "reviewer": "Tim Kurasi Data HERB-INFO AI",
+    "tanggal_review": "2026-10-25",
+    "peringatan": "Bahaya utama diare adalah dehidrasi (kekurangan cairan dan elektrolit). Penggunaan rebusan daun jambu biji tidak menggantikan pemberian larutan oralit. Segera ke fasilitas kesehatan bila diare disertai demam tinggi, tinja berdarah/berlendir, atau tanda dehidrasi.",
+    "kontraindikasi": "Tidak dianjurkan pada kondisi sembelit (konstipasi) atau obstruksi usus karena kandungan tanin bersifat memadatkan feses.",
+    "ingredients": [
+      {
+        "nama_bahan": "Daun Jambu Biji Muda (Psidium guajava)",
+        "jumlah": "5 - 7",
+        "satuan": "lembar",
+        "catatan": "Cuci bersih dengan air mengalir (Q&A #33)"
+      },
+      {
+        "nama_bahan": "Air Bersih",
+        "jumlah": "2",
+        "satuan": "gelas",
+        "catatan": "Direbus hingga tersisa 1 gelas (Q&A #33)"
+      }
+    ],
+    "steps": [
+      {
+        "nomor_langkah": 1,
+        "deskripsi_langkah": "Siapkan 5 hingga 7 lembar daun jambu biji muda yang segar dan cuci bersih di bawah air mengalir."
+      },
+      {
+        "nomor_langkah": 2,
+        "deskripsi_langkah": "Masukkan daun jambu biji ke dalam panci bersama 2 gelas air bersih."
+      },
+      {
+        "nomor_langkah": 3,
+        "deskripsi_langkah": "Rebus dengan api kecil hingga mendidih dan volume air menyusut menjadi 1 gelas."
+      },
+      {
+        "nomor_langkah": 4,
+        "deskripsi_langkah": "Matikan api, saring air rebusan ke dalam gelas bersih, dan tunggu hingga hangat."
+      }
+    ],
+    "usages": [
+      {
+        "aturan_penggunaan_dari_sumber": "Menurut dokumentasi Q&A #33 pada dataset, hasil rebusan daun jambu biji (1 gelas) secara tradisional diminum 2 kali sehari disertai asupan cairan elektrolit/air putih yang cukup.",
+        "status_review_penggunaan": "DIPERIKSA_MANUAL_LAYAK_TAMPIL_EDUKASI",
+        "boleh_ditampilkan_publik": true
+      }
+    ],
+    "sources": [
+      {
+        "nama_referensi": "Klasifikasi Obat Bahan Alam Indonesia: Jamu, OHT, dan Fitofarmaka",
+        "instansi": "BPOM RI",
+        "url": "https://www.pom.go.id/",
+        "halaman": "Entri Rujukan BPOM-01 & Q&A #33",
+        "status_validasi": "RUJUKAN_RESMI_BPOM"
+      },
+      {
+        "nama_referensi": "Formularium Ramuan Obat Tradisional Indonesia (FROTI)",
+        "instansi": "Kementerian Kesehatan RI",
+        "url": "https://repository.kemkes.go.id/book/352",
+        "halaman": "Referensi Struktur Ramuan Saluran Cerna",
+        "status_validasi": "CALON_REFERENSI_TERSTRUKTUR_KEMENKES"
+      }
+    ]
+  },
+  {
+    "recipe_code": "RAMUAN-05",
+    "slug": "wedang-uwuh-rempah",
+    "nama_ramuan": "Wedang Uwuh Rempah Yogyakarta",
+    "keluhan_terkait": "Masuk angin, perut kembung, mual ringan, dan menghangatkan badan",
+    "deskripsi": "Minuman seduhan rempah tradisional khas Imogiri, Yogyakarta yang terdiri dari jahe, serutan kayu secang, cengkeh, kayu manis, dan daun/bunga pala. Nama 'uwuh' dalam bahasa Jawa berarti dedaunan/rempah kering yang diseduh bersama.",
+    "cara_menyiapkan_bahan": "Bakar sebentar rimpang jahe segar lalu memarkan/geprek; cuci bersih rempah kering (secang, kayu manis, cengkeh, pala) sebelum direbus.",
+    "kelompok_tidak_dianjurkan": "Pasien yang sedang mengonsumsi obat pengencer darah (antikoagulan seperti warfarin) dalam dosis tinggi, serta penderita tukak lambung akut bila jahe terlalu pedas/pekat.",
+    "status_verifikasi": "Terkurasi dari Dataset Riset (Q&A #24 & #5) & Rujukan Bahan Baku BPOM-09",
+    "sumber_url": "https://standar-otskk.pom.go.id/",
+    "sumber_halaman": "Q&A Entri #24, #5 & #29; Rujukan BPOM-09",
+    "reviewer": "Tim Kurasi Data HERB-INFO AI",
+    "tanggal_review": "2026-10-25",
+    "peringatan": "Jahe memiliki aktivitas antiplatelet ringan yang dapat berinteraksi dengan obat pengencer darah medis (Q&A #39). Konsultasikan dengan dokter apabila sedang menjalani pengobatan rutin.",
+    "kontraindikasi": "Hati-hati penggunaan pada pasien dengan riwayat perdarahan aktif atau menjelang tindakan operasi medis.",
+    "ingredients": [
+      {
+        "nama_bahan": "Rimpang Jahe Segar (Zingiber officinale)",
+        "jumlah": "1",
+        "satuan": "ruas ibu jari",
+        "catatan": "Dibakar sebentar dan digeprek (Q&A #5 & #24)"
+      },
+      {
+        "nama_bahan": "Serutan Kayu Secang (Caesalpinia sappan)",
+        "jumlah": "Secukupnya",
+        "satuan": "jumput",
+        "catatan": "Memberikan warna merah alami brazilin (Q&A #24 & #29)"
+      },
+      {
+        "nama_bahan": "Kulit Kayu Manis (Cinnamomum burmannii)",
+        "jumlah": "1",
+        "satuan": "batang kecil",
+        "catatan": "Rempah aromatik penghangat (Q&A #24 & #26)"
+      },
+      {
+        "nama_bahan": "Bunga/Batang Cengkeh & Daun Pala",
+        "jumlah": "2 - 3",
+        "satuan": "butir / lembar",
+        "catatan": "Komponen rempah wedang uwuh (Q&A #24, #27 & #28)"
+      },
+      {
+        "nama_bahan": "Gula Batu",
+        "jumlah": "Secukupnya",
+        "satuan": "bongkah kecil",
+        "catatan": "Pemanis tradisional (Q&A #24)"
+      }
+    ],
+    "steps": [
+      {
+        "nomor_langkah": 1,
+        "deskripsi_langkah": "Cuci bersih rimpang jahe segar, bakar sebentar di atas api, lalu memarkan (geprek)."
+      },
+      {
+        "nomor_langkah": 2,
+        "deskripsi_langkah": "Bilas cepat serutan kayu secang, kayu manis, cengkeh, dan daun pala dengan air bersih."
+      },
+      {
+        "nomor_langkah": 3,
+        "deskripsi_langkah": "Rebus seluruh rempah bersama 1-2 gelas air bersih selama kurang lebih 10 menit hingga air berubah warna menjadi merah hangat dan beraroma harum."
+      },
+      {
+        "nomor_langkah": 4,
+        "deskripsi_langkah": "Tuangkan ke dalam cangkir bersama gula batu secukupnya dan sajikan selagi hangat."
+      }
+    ],
+    "usages": [
+      {
+        "aturan_penggunaan_dari_sumber": "Dokumentasi Q&A #24 mencatat wedang uwuh disajikan sebagai minuman rempah penghangat tubuh 1 cangkir saat diperlukan.",
+        "status_review_penggunaan": "DIPERIKSA_MANUAL_LAYAK_TAMPIL_EDUKASI",
+        "boleh_ditampilkan_publik": true
+      }
+    ],
+    "sources": [
+      {
+        "nama_referensi": "Standar Mutu Bahan Baku Obat Bahan Alam",
+        "instansi": "BPOM RI",
+        "url": "https://standar-otskk.pom.go.id/",
+        "halaman": "Entri Rujukan BPOM-09",
+        "status_validasi": "RUJUKAN_RESMI_BPOM"
+      },
+      {
+        "nama_referensi": "Formularium Ramuan Obat Tradisional Indonesia (FROTI)",
+        "instansi": "Kementerian Kesehatan RI",
+        "url": "https://repository.kemkes.go.id/book/352",
+        "halaman": "Referensi Struktur Ramuan Penghangat Tubuh",
+        "status_validasi": "CALON_REFERENSI_TERSTRUKTUR_KEMENKES"
+      }
+    ]
+  },
+  {
+    "recipe_code": "RAMUAN-06",
+    "slug": "rebusan-temulawak-tradisional",
+    "nama_ramuan": "Seduhan Rimpang Temulawak Tradisional",
+    "keluhan_terkait": "Penurunan nafsu makan, perut kembung, dan pemeliharaan fungsi hati (hepatoprotektor)",
+    "deskripsi": "Ramuan tradisional berbahan dasar irisan rimpang temulawak (Curcuma xanthorrhiza), tanaman asli Indonesia yang mengandung xanthorrhizol dan kurkuminoid. Tercatat pada rujukan topik BPOM-07 (Registrasi OBA Bentuk Tunggal) dan BPOM-09.",
+    "cara_menyiapkan_bahan": "Kupas kulit luar rimpang temulawak segar, cuci bersih dengan air mengalir, lalu iris tipis-tipis.",
+    "kelompok_tidak_dianjurkan": "Penderita sumbatan saluran empedu (obstruksi bilier) akut dan batu empedu ukuran besar tanpa pengawasan dokter.",
+    "status_verifikasi": "Terkurasi dari Dataset Riset (Q&A #7) & Rujukan Topik BPOM-07 / BPOM-09",
+    "sumber_url": "https://standar-otskk.pom.go.id/",
+    "sumber_halaman": "Q&A Entri #7; Rujukan BPOM-07 & BPOM-09",
+    "reviewer": "Tim Kurasi Data HERB-INFO AI",
+    "tanggal_review": "2026-10-25",
+    "peringatan": "Klaim pada BPOM-07 mengacu pada registrasi obat bahan alam bentuk tunggal terstandar; rebusan rimpang segar di rumah bersifat pemeliharaan kesehatan tradisional dan bukan pengganti pengobatan hepatitis medis.",
+    "kontraindikasi": "Tidak dianjurkan pada pasien dengan obstruksi saluran empedu akut.",
+    "ingredients": [
+      {
+        "nama_bahan": "Rimpang Temulawak Segar (Curcuma xanthorrhiza)",
+        "jumlah": "Belum tercantum di sumber",
+        "satuan": "rimpang (irisan tipis)",
+        "catatan": "Bahan utama hepatoprotektor tradisional (Q&A #7 & BPOM-07)"
+      },
+      {
+        "nama_bahan": "Air Bersih",
+        "jumlah": "Belum tercantum di sumber",
+        "satuan": "gelas",
+        "catatan": "Pelarut perebusan rimpang (Q&A #7)"
+      }
+    ],
+    "steps": [
+      {
+        "nomor_langkah": 1,
+        "deskripsi_langkah": "Kupas dan cuci bersih rimpang temulawak segar, kemudian iris tipis-tipis."
+      },
+      {
+        "nomor_langkah": 2,
+        "deskripsi_langkah": "Rebus irisan temulawak di dalam air bersih hingga mendidih dan sari rimpang keluar."
+      },
+      {
+        "nomor_langkah": 3,
+        "deskripsi_langkah": "Saring air rebusan ke dalam cangkir bersih dan biarkan hangat sebelum disajikan."
+      }
+    ],
+    "usages": [
+      {
+        "aturan_penggunaan_dari_sumber": null,
+        "status_review_penggunaan": "TAKARAN_BELUM_TERSEDIA_PADA_SUMBER_TERVERIFIKASI",
+        "boleh_ditampilkan_publik": false
+      }
+    ],
+    "sources": [
+      {
+        "nama_referensi": "Registrasi Obat Bahan Alam Bentuk Tunggal (Kategori Klaim Temulawak)",
+        "instansi": "BPOM RI",
+        "url": "https://standar-otskk.pom.go.id/",
+        "halaman": "Entri Rujukan BPOM-07 & BPOM-09",
+        "status_validasi": "RUJUKAN_RESMI_BPOM"
+      },
+      {
+        "nama_referensi": "Formularium Ramuan Obat Tradisional Indonesia (FROTI)",
+        "instansi": "Kementerian Kesehatan RI",
+        "url": "https://repository.kemkes.go.id/book/352",
+        "halaman": "Calon Referensi Struktur Ramuan Hepatoprotektor & Nafsu Makan",
+        "status_validasi": "CALON_REFERENSI_TERSTRUKTUR_KEMENKES"
+      }
+    ]
+  }
+]

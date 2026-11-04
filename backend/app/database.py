@@ -3,8 +3,11 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 from app.config import DB_PATH, PROCESSED_DIR
 
-PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+try:
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+except Exception:
+    pass
 
 SQLALCHEMY_DATABASE_URL = f"sqlite:///{DB_PATH.as_posix()}"
 

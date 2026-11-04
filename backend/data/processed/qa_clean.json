@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Apa itu pengobatan tradisional?",
+    "jawaban_kaggle_asli": "Pengobatan tradisional adalah praktik penyembuhan yang didasarkan pada pengetahuan, keterampilan, dan kepercayaan yang diturunkan secara turun-temurun dari generasi ke generasi. Di Indonesia, pengobatan tradisional diatur dalam UU No. 36 Tahun 2009 tentang Kesehatan dan Permenkes No. 6 Tahun 2016 tentang Formularium Obat Herbal Asli Indonesia. Pengobatan tradisional mencakup: jamu, herbal, akupunktur, pijat tradisional, dan praktik etnomedisin lainnya.",
+    "topik": "praktik tradisional",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 31,
+    "panjang_jawaban": 456
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Apa itu jamu?",
+    "jawaban_kaggle_asli": "Jamu adalah obat tradisional Indonesia yang terbuat dari bahan-bahan alami seperti akar, daun, kulit kayu, buah, dan rimpang tanaman. Jamu telah digunakan selama ratusan tahun sebagai bagian dari budaya kesehatan masyarakat Indonesia. Berdasarkan BPOM, jamu diklasifikasikan menjadi 3 kategori: (1) Jamu - berdasarkan pengalaman turun-temurun, (2) Obat Herbal Terstandar (OHT) - sudah diuji preklinik, (3) Fitofarmaka - sudah diuji klinis pada manusia.",
+    "topik": "jamu",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 13,
+    "panjang_jawaban": 452
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Apa perbedaan Jamu, Obat Herbal Terstandar, dan Fitofarmaka?",
+    "jawaban_kaggle_asli": "Ketiganya adalah tingkatan regulasi obat tradisional di Indonesia oleh BPOM: (1) Jamu (logo ranting daun): klaim berdasarkan pengalaman empiris turun-temurun, belum ada uji ilmiah formal. (2) Obat Herbal Terstandar/OHT (logo bintang): sudah melalui uji preklinik (laboratorium dan hewan), bahan baku terstandarisasi. (3) Fitofarmaka (logo jari-jari daun): tingkat tertinggi, sudah melalui uji klinis pada manusia, setara dengan standar obat konvensional. Contoh fitofarmaka: Stimuno (meniran), Tensigard (seledri).",
+    "topik": "regulasi",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 60,
+    "panjang_jawaban": 514
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Apa itu tanaman obat?",
+    "jawaban_kaggle_asli": "Tanaman obat adalah tumbuhan yang salah satu atau seluruh bagiannya (akar, batang, daun, bunga, buah, biji) mengandung senyawa aktif yang berkhasiat untuk pencegahan atau pengobatan penyakit. Indonesia memiliki sekitar 30.000 spesies tumbuhan, dan diperkirakan 7.000 di antaranya merupakan tanaman obat. Badan Litbang Kemenkes dan BPOM telah mendokumentasikan ratusan tanaman obat yang terbukti memiliki khasiat berdasarkan penelitian ilmiah.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 21,
+    "panjang_jawaban": 442
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Apa khasiat jahe untuk kesehatan?",
+    "jawaban_kaggle_asli": "Jahe (Zingiber officinale) mengandung senyawa aktif gingerol dan shogaol yang memiliki beberapa khasiat: (1) Anti-mual - efektif untuk mual saat hamil (morning sickness) dan mabuk perjalanan, (2) Anti-inflamasi - mengurangi nyeri sendi dan otot, (3) Menghangatkan tubuh - meningkatkan sirkulasi darah, (4) Membantu pencernaan - meredakan kembung dan masuk angin, (5) Antioksidan - melawan radikal bebas. Jahe bisa dikonsumsi sebagai wedang jahe, campuran jamu, atau bumbu masakan.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 33,
+    "panjang_jawaban": 480
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Apa khasiat kunyit untuk kesehatan?",
+    "jawaban_kaggle_asli": "Kunyit (Curcuma longa) mengandung senyawa aktif kurkumin yang memiliki banyak manfaat: (1) Anti-inflamasi kuat - setara dengan beberapa obat anti-inflamasi, (2) Antioksidan - melindungi sel dari kerusakan, (3) Hepatoprotektif - melindungi hati, (4) Membantu pencernaan - merangsang produksi empedu, (5) Antibakteri - membantu penyembuhan luka. Dalam jamu tradisional, kunyit digunakan dalam jamu kunir asam (kunyit + asam jawa) untuk kesehatan wanita dan daya tahan tubuh.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 35,
+    "panjang_jawaban": 472
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Apa itu temulawak dan apa manfaatnya?",
+    "jawaban_kaggle_asli": "Temulawak (Curcuma xanthorrhiza) adalah tanaman asli Indonesia yang rimpangnya digunakan sebagai obat tradisional. Senyawa aktif utama: xanthorrhizol dan kurkuminoid. Manfaat: (1) Hepatoprotektor - melindungi dan memelihara fungsi hati, sudah banyak penelitian ilmiah yang mendukung, (2) Meningkatkan nafsu makan - terutama pada anak, (3) Anti-inflamasi - meredakan peradangan, (4) Antioksidan - melawan radikal bebas, (5) Membantu pencernaan - mengurangi kembung. Temulawak menjadi bahan utama banyak produk jamu dan suplemen di Indonesia.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 37,
+    "panjang_jawaban": 540
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Apa khasiat kencur?",
+    "jawaban_kaggle_asli": "Kencur (Kaempferia galanga) adalah rimpang yang banyak digunakan dalam jamu tradisional Jawa. Senyawa aktif: etil p-metoksisinamat dan etil sinamat. Khasiat: (1) Mengobati batuk - sebagai ekspektoran alami, (2) Mengatasi masuk angin - menghangatkan tubuh, (3) Anti-inflamasi - meredakan radang tenggorokan, (4) Penambah tenaga - dalam jamu beras kencur yang terkenal, (5) Mengatasi diare - memiliki efek antidiare. Jamu beras kencur (beras + kencur + gula merah) adalah salah satu jamu paling populer di Indonesia.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 19,
+    "panjang_jawaban": 514
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Apa itu jamu beras kencur?",
+    "jawaban_kaggle_asli": "Jamu beras kencur adalah minuman jamu tradisional Jawa yang sangat populer di Indonesia. Bahan utama: beras yang direndam, kencur segar, gula merah, asam jawa, dan air. Cara membuat: beras direndam semalaman lalu diblender bersama kencur, disaring, ditambah gula merah dan asam jawa. Khasiat: menambah nafsu makan, mengatasi masuk angin, menambah stamina, dan meredakan batuk. Jamu ini aman untuk anak-anak dan sering diberikan kepada anak yang susah makan.",
+    "topik": "jamu",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 26,
+    "panjang_jawaban": 457
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Apa khasiat daun sirih?",
+    "jawaban_kaggle_asli": "Daun sirih (Piper betle) mengandung senyawa chavicol, eugenol, dan kavikol yang memiliki khasiat: (1) Antiseptik kuat - membunuh bakteri dan jamur, digunakan untuk membersihkan luka, (2) Anti-inflamasi - mengurangi pembengkakan, (3) Kesehatan mulut - menghambat pertumbuhan bakteri penyebab bau mulut dan gigi berlubang, (4) Kesehatan kewanitaan - rebusan daun sirih digunakan untuk menjaga kebersihan organ intim, (5) Menghentikan mimisan - daun sirih digulung dan dimasukkan ke hidung. Tradisi menyirih (mengunyah sirih + kapur + gambir) masih dipraktikkan di beberapa daerah.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 23,
+    "panjang_jawaban": 578
+  },
+  {
+    "id": 11,
+    "pertanyaan": "Apa khasiat lidah buaya untuk kesehatan?",
+    "jawaban_kaggle_asli": "Lidah buaya (Aloe vera) mengandung gel yang kaya akan polisakarida, vitamin, mineral, dan enzim. Khasiat: (1) Penyembuhan luka bakar - gel lidah buaya mempercepat regenerasi kulit, (2) Pelembab kulit - menghidrasi tanpa membuat berminyak, (3) Membantu pencernaan - jus lidah buaya membantu mengatasi sembelit, (4) Anti-inflamasi - mengurangi iritasi kulit, (5) Kesehatan rambut - menguatkan dan melembabkan rambut. Di Indonesia, lidah buaya juga diolah menjadi minuman segar (es lidah buaya) yang populer di Kalimantan Barat.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 40,
+    "panjang_jawaban": 525
+  },
+  {
+    "id": 12,
+    "pertanyaan": "Apa itu minyak kayu putih dan apa kegunaannya?",
+    "jawaban_kaggle_asli": "Minyak kayu putih (Cajuput oil) diperoleh dari penyulingan daun dan ranting pohon kayu putih (Melaleuca cajuputi). Indonesia adalah produsen minyak kayu putih terbesar di dunia, terutama dari Maluku, Buru, dan Seram. Kegunaan: (1) Menghangatkan tubuh - dioleskan pada perut dan dada, (2) Mengatasi masuk angin dan kembung - terutama pada bayi dan anak, (3) Meredakan nyeri otot - sebagai minyak gosok, (4) Dekongestan - melegakan hidung tersumbat jika dihirup, (5) Antiseptik ringan - untuk luka kecil. Minyak kayu putih adalah salah satu produk herbal Indonesia yang paling dikenal secara internasional.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 46,
+    "panjang_jawaban": 604
+  },
+  {
+    "id": 13,
+    "pertanyaan": "Apa itu TOGA?",
+    "jawaban_kaggle_asli": "TOGA (Tanaman Obat Keluarga) adalah program pemanfaatan lahan pekarangan rumah untuk menanam tanaman obat. Program TOGA digalakkan oleh Kemenkes sejak tahun 1980-an untuk meningkatkan kemandirian masyarakat dalam kesehatan. Tanaman yang umum di TOGA: jahe, kunyit, temulawak, kencur, lengkuas, sereh, lidah buaya, kumis kucing, sambiloto, dan daun sirih. Manfaat TOGA: (1) Akses mudah ke obat tradisional, (2) Menghemat biaya kesehatan, (3) Melestarikan pengetahuan obat tradisional, (4) Memperbaiki gizi keluarga.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 13,
+    "panjang_jawaban": 514
+  },
+  {
+    "id": 14,
+    "pertanyaan": "Apa khasiat sambiloto?",
+    "jawaban_kaggle_asli": "Sambiloto (Andrographis paniculata) mengandung senyawa aktif andrographolide yang memiliki khasiat: (1) Imunostimulan - meningkatkan sistem kekebalan tubuh, (2) Anti-inflamasi - mengurangi peradangan, (3) Antipiretik - menurunkan demam, (4) Antibakteri dan antivirus - membantu melawan infeksi, (5) Hepatoprotektif - melindungi hati. Sambiloto telah diteliti secara luas dan beberapa produknya sudah mencapai status fitofarmaka. Rasanya sangat pahit sehingga sering disebut 'raja pahit' (king of bitters).",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 22,
+    "panjang_jawaban": 505
+  },
+  {
+    "id": 15,
+    "pertanyaan": "Apa itu meniran dan apa khasiatnya?",
+    "jawaban_kaggle_asli": "Meniran (Phyllanthus niruri) adalah tanaman herbal yang tumbuh liar di Indonesia. Senyawa aktif: filantin dan hipofilantin. Khasiat utama: (1) Imunomodulator - mengatur dan meningkatkan sistem imun tubuh, ini adalah khasiat yang paling banyak diteliti, (2) Hepatoprotektif - melindungi hati, (3) Diuretik - membantu melancarkan buang air kecil, (4) Antivirus - khususnya terhadap virus hepatitis B. Produk Stimuno (ekstrak meniran) adalah salah satu fitofarmaka Indonesia yang paling terkenal, sudah melalui uji klinis lengkap.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 35,
+    "panjang_jawaban": 527
+  },
+  {
+    "id": 16,
+    "pertanyaan": "Apa khasiat kumis kucing?",
+    "jawaban_kaggle_asli": "Kumis kucing (Orthosiphon aristatus) adalah tanaman obat yang banyak tumbuh di Asia Tenggara. Senyawa aktif: sinensetin dan rosmarinic acid. Khasiat: (1) Diuretik alami - melancarkan buang air kecil, membantu mengeluarkan batu ginjal, (2) Antihipertensi - membantu menurunkan tekanan darah, (3) Anti-inflamasi - mengurangi pembengkakan, (4) Membantu mengatasi asam urat - melancarkan pembuangan asam urat melalui urin, (5) Antioksidan - melindungi sel dari kerusakan. Biasanya dikonsumsi sebagai teh herbal dari daun kering.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 25,
+    "panjang_jawaban": 524
+  },
+  {
+    "id": 17,
+    "pertanyaan": "Apa khasiat seledri untuk kesehatan?",
+    "jawaban_kaggle_asli": "Seledri (Apium graveolens) mengandung senyawa apigenin, phthalide, dan flavonoid. Khasiat: (1) Antihipertensi - membantu menurunkan tekanan darah, ini adalah khasiat yang paling terkenal di Indonesia, (2) Diuretik - melancarkan buang air kecil, (3) Anti-inflamasi - mengurangi peradangan sendi, (4) Menurunkan kolesterol - membantu mengurangi kadar kolesterol darah, (5) Kaya antioksidan. Produk Tensigard (ekstrak seledri) adalah fitofarmaka Indonesia untuk membantu menurunkan tekanan darah. Seledri bisa dikonsumsi sebagai jus atau lalapan.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 36,
+    "panjang_jawaban": 543
+  },
+  {
+    "id": 18,
+    "pertanyaan": "Apa khasiat mengkudu (pace)?",
+    "jawaban_kaggle_asli": "Mengkudu atau pace (Morinda citrifolia) adalah buah tropis yang banyak digunakan dalam pengobatan tradisional. Senyawa aktif: xeronine, scopoletin, dan damnacanthal. Khasiat: (1) Antihipertensi - scopoletin membantu menurunkan tekanan darah, (2) Meningkatkan imunitas - merangsang produksi sel imun, (3) Antioksidan - melawan radikal bebas, (4) Anti-inflamasi - mengurangi nyeri sendi, (5) Antibakteri - membantu melawan infeksi. Meski baunya menyengat, mengkudu dikonsumsi sebagai jus atau kapsul. Di beberapa daerah, buah mengkudu mentah dimakan sebagai lalapan.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 28,
+    "panjang_jawaban": 564
+  },
+  {
+    "id": 19,
+    "pertanyaan": "Apa itu loloh dalam pengobatan tradisional Bali?",
+    "jawaban_kaggle_asli": "Loloh adalah minuman herbal tradisional Bali yang terbuat dari campuran daun-daunan dan rempah-rempah segar. Loloh mirip dengan jamu Jawa tetapi memiliki resep dan tradisi khas Bali. Beberapa jenis loloh: (1) Loloh cemcem - dari daun cemcem (kedondong muda), untuk menurunkan panas, (2) Loloh tempuyung - dari daun tempuyung, untuk batu ginjal, (3) Loloh adas - dari biji adas, untuk masuk angin, (4) Loloh don kunyit - dari daun kunyit, untuk kesehatan pencernaan. Tradisi minum loloh masih hidup kuat di masyarakat Bali.",
+    "topik": "jamu",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 48,
+    "panjang_jawaban": 522
+  },
+  {
+    "id": 20,
+    "pertanyaan": "Apa khasiat daun sirsak?",
+    "jawaban_kaggle_asli": "Daun sirsak (Annona muricata) mengandung senyawa acetogenins yang telah diteliti khasiatnya: (1) Antioksidan kuat - melawan radikal bebas, (2) Anti-inflamasi - mengurangi peradangan, (3) Antimikroba - membantu melawan bakteri dan parasit, (4) Membantu menurunkan tekanan darah, (5) Membantu menurunkan kadar gula darah. Biasanya dikonsumsi sebagai teh dari daun sirsak kering (10-15 lembar direbus). Catatan penting: klaim daun sirsak sebagai anti-kanker masih memerlukan penelitian klinis lebih lanjut pada manusia dan tidak boleh menggantikan pengobatan medis konvensional.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 24,
+    "panjang_jawaban": 575
+  },
+  {
+    "id": 21,
+    "pertanyaan": "Apa khasiat lengkuas?",
+    "jawaban_kaggle_asli": "Lengkuas atau laos (Alpinia galanga) adalah rimpang yang banyak digunakan sebagai bumbu dan obat tradisional. Senyawa aktif: asetoksikavikol asetat (ACA) dan galangin. Khasiat: (1) Antijamur - efektif melawan jamur kulit (panu, kurap), dioleskan langsung ke kulit yang terinfeksi, (2) Anti-inflamasi - mengurangi nyeri dan bengkak, (3) Antibakteri - membantu melawan infeksi, (4) Menghangatkan tubuh - untuk masuk angin, (5) Membantu pencernaan - mengatasi kembung. Dalam pengobatan tradisional, lengkuas yang dibelah dua dan dioleskan ke kulit adalah pengobatan panu yang paling terkenal.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 21,
+    "panjang_jawaban": 589
+  },
+  {
+    "id": 22,
+    "pertanyaan": "Apa khasiat sereh (serai)?",
+    "jawaban_kaggle_asli": "Sereh atau serai (Cymbopogon citratus) mengandung sitral, geraniol, dan mircena. Khasiat: (1) Antimikroba - menghambat pertumbuhan bakteri dan jamur, (2) Penolak nyamuk alami - aroma sitronela efektif mengusir nyamuk, (3) Meredakan nyeri - membantu mengatasi sakit kepala dan nyeri otot, (4) Membantu pencernaan - mengatasi kembung dan mual, (5) Menurunkan demam - sebagai antipiretik tradisional, (6) Relaksasi - aroma sereh membantu meredakan stres. Dikonsumsi sebagai teh sereh, minyak atsiri, atau campuran dalam masakan dan jamu.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 26,
+    "panjang_jawaban": 534
+  },
+  {
+    "id": 23,
+    "pertanyaan": "Apa khasiat daun pepaya?",
+    "jawaban_kaggle_asli": "Daun pepaya (Carica papaya) mengandung enzim papain, alkaloid karpain, dan flavonoid. Khasiat: (1) Meningkatkan trombosit - banyak digunakan sebagai pendamping pengobatan demam berdarah (DBD) untuk membantu menaikkan trombosit, (2) Melancarkan pencernaan - enzim papain membantu mencerna protein, (3) Anti-inflamasi - mengurangi peradangan, (4) Antimalaria - alkaloid karpain memiliki aktivitas antimalaria, (5) Meningkatkan nafsu makan. Biasanya dikonsumsi sebagai jus daun pepaya (diperas) atau sebagai sayur. Rasanya sangat pahit.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 24,
+    "panjang_jawaban": 533
+  },
+  {
+    "id": 24,
+    "pertanyaan": "Apa itu wedang uwuh?",
+    "jawaban_kaggle_asli": "Wedang uwuh adalah minuman herbal tradisional khas Yogyakarta dan Jawa Tengah. Nama 'uwuh' berarti sampah/dedaunan dalam bahasa Jawa, karena minuman ini terbuat dari campuran berbagai rempah dan daun kering. Bahan: kayu secang (warna merah), jahe, kayu manis, cengkeh, kapulaga, daun pala, serutan kelapa, dan gula batu. Khasiat: menghangatkan tubuh, meningkatkan daya tahan tubuh, antioksidan tinggi (terutama dari secang), dan melancarkan peredaran darah. Wedang uwuh kini populer sebagai minuman kesehatan di seluruh Indonesia.",
+    "topik": "jamu",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 20,
+    "panjang_jawaban": 530
+  },
+  {
+    "id": 25,
+    "pertanyaan": "Apa itu minyak gosok tradisional?",
+    "jawaban_kaggle_asli": "Minyak gosok tradisional adalah ramuan minyak yang dioleskan pada tubuh untuk mengobati berbagai keluhan. Beberapa minyak gosok terkenal di Indonesia: (1) Minyak tawon - dari Makassar, campuran minyak kelapa, cengkeh, dan rempah, untuk nyeri otot, (2) Minyak gandapura - dari daun gandapura, mengandung metil salisilat, untuk nyeri sendi, (3) Minyak sereh - untuk mengusir nyamuk dan menghangatkan, (4) Param - pasta tradisional Jawa dari rempah yang ditumbuk, untuk pegal-pegal pasca melahirkan. Minyak gosok bekerja dengan meningkatkan aliran darah lokal dan memberikan efek hangat.",
+    "topik": "jamu",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 33,
+    "panjang_jawaban": 584
+  },
+  {
+    "id": 26,
+    "pertanyaan": "Apa khasiat kayu manis?",
+    "jawaban_kaggle_asli": "Kayu manis (Cinnamomum verum/burmannii) mengandung sinamaldehid, asam sinamat, dan polifenol. Khasiat: (1) Membantu mengontrol gula darah - meningkatkan sensitivitas insulin, bermanfaat untuk penderita diabetes tipe 2, (2) Anti-inflamasi - mengurangi peradangan kronis, (3) Antioksidan kuat - salah satu rempah dengan kadar antioksidan tertinggi, (4) Antimikroba - menghambat pertumbuhan bakteri dan jamur, (5) Menurunkan kolesterol - membantu mengurangi LDL. Indonesia (terutama Sumatera) adalah penghasil kayu manis (cassia) terbesar dunia. Dikonsumsi sebagai teh, campuran jamu, atau bumbu masakan.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 23,
+    "panjang_jawaban": 601
+  },
+  {
+    "id": 27,
+    "pertanyaan": "Apa khasiat cengkeh untuk kesehatan?",
+    "jawaban_kaggle_asli": "Cengkeh (Syzygium aromaticum) mengandung eugenol sebagai senyawa aktif utama. Khasiat: (1) Analgesik - meredakan sakit gigi, minyak cengkeh diteteskan pada gigi yang sakit adalah pengobatan tradisional yang sudah terbukti ilmiah, (2) Antiseptik - membunuh bakteri di rongga mulut, (3) Anti-inflamasi - mengurangi peradangan, (4) Antioksidan - eugenol adalah antioksidan kuat, (5) Menghangatkan tubuh - mengatasi masuk angin. Maluku Utara adalah daerah asal cengkeh di dunia. Minyak cengkeh juga digunakan dalam industri farmasi dan kedokteran gigi.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 36,
+    "panjang_jawaban": 548
+  },
+  {
+    "id": 28,
+    "pertanyaan": "Apa khasiat pala?",
+    "jawaban_kaggle_asli": "Pala (Myristica fragrans) adalah rempah asli Kepulauan Banda, Maluku. Bagian yang digunakan: biji pala dan bunga pala (fuli/mace). Senyawa aktif: miristisin dan elemicin. Khasiat: (1) Meredakan nyeri - sebagai analgesik tradisional, (2) Membantu pencernaan - mengatasi diare, kembung, dan mual, (3) Membantu tidur - efek sedatif ringan, (4) Anti-inflamasi - mengurangi nyeri sendi, (5) Menghangatkan tubuh. Peringatan: konsumsi pala dalam jumlah besar (lebih dari 1-2 sendok teh bubuk) dapat menyebabkan efek halusinogenik dan toksik. Gunakan dalam dosis wajar sebagai bumbu atau campuran jamu.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 17,
+    "panjang_jawaban": 594
+  },
+  {
+    "id": 29,
+    "pertanyaan": "Apa khasiat kayu secang?",
+    "jawaban_kaggle_asli": "Kayu secang (Caesalpinia sappan) adalah kayu yang menghasilkan warna merah dan banyak digunakan dalam jamu tradisional Jawa. Senyawa aktif: brazilin dan brazilein. Khasiat: (1) Antioksidan sangat tinggi - brazilin adalah antioksidan kuat, (2) Anti-inflamasi - mengurangi peradangan, (3) Antibakteri - menghambat pertumbuhan bakteri, (4) Melancarkan peredaran darah - membantu mengatasi pembekuan darah, (5) Meredakan nyeri. Kayu secang adalah bahan utama wedang secang dan wedang uwuh. Air rebusan kayu secang berwarna merah dan memiliki rasa ringan yang menyegarkan.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 24,
+    "panjang_jawaban": 567
+  },
+  {
+    "id": 30,
+    "pertanyaan": "Bagaimana cara membuat jamu kunyit asam?",
+    "jawaban_kaggle_asli": "Jamu kunyit asam (kunir asam) adalah jamu tradisional yang populer untuk kesehatan wanita. Bahan: 200g kunyit segar (parut/blender), 100g asam jawa, 150g gula merah/aren, 1 liter air, dan sedikit garam. Cara membuat: (1) Parut kunyit, peras ambil sarinya, (2) Rebus air, masukkan sari kunyit, gula merah, dan asam jawa, (3) Aduk hingga gula larut dan mendidih, (4) Saring, dinginkan. Khasiat: mengurangi nyeri haid, melancarkan haid, menjaga daya tahan tubuh, antioksidan, dan membantu pencernaan. Diminum 1 gelas per hari.",
+    "topik": "jamu",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 40,
+    "panjang_jawaban": 523
+  },
+  {
+    "id": 31,
+    "pertanyaan": "Apa itu boreh dalam tradisi Bali?",
+    "jawaban_kaggle_asli": "Boreh adalah ramuan tradisional Bali berupa pasta yang dioleskan ke tubuh. Bahan utama: beras, jahe, kunyit, kencur, cengkeh, kayu manis, dan pala yang ditumbuk halus lalu dicampur dengan air atau minyak kelapa. Boreh dioleskan ke seluruh tubuh dan dibiarkan hingga kering, kemudian digosok/dilulur. Khasiat: (1) Menghangatkan tubuh - terutama saat masuk angin atau setelah kehujanan, (2) Melancarkan peredaran darah, (3) Meredakan nyeri otot dan sendi, (4) Menghaluskan kulit - efek scrub alami. Boreh kini juga populer sebagai perawatan spa.",
+    "topik": "praktik tradisional",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 33,
+    "panjang_jawaban": 543
+  },
+  {
+    "id": 32,
+    "pertanyaan": "Apa itu mandi rempah pasca melahirkan?",
+    "jawaban_kaggle_asli": "Mandi rempah pasca melahirkan adalah tradisi perawatan ibu setelah melahirkan yang dipraktikkan di berbagai suku di Indonesia. Air mandi dicampur dengan rebusan rempah-rempah: daun sirih, kunyit, jahe, kencur, daun pandan, dan bunga-bungaan. Tujuan: (1) Membersihkan dan menyegarkan tubuh ibu, (2) Membantu pemulihan rahim - rempah tertentu dipercaya membantu rahim kembali ke ukuran normal, (3) Mengurangi bau badan - efek antiseptik alami, (4) Relaksasi - aroma rempah membantu mengurangi stres pasca melahirkan. Tradisi ini juga sering disertai dengan pijat tradisional dan penggunaan param (pasta rempah).",
+    "topik": "praktik tradisional",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 38,
+    "panjang_jawaban": 609
+  },
+  {
+    "id": 33,
+    "pertanyaan": "Apa khasiat daun jambu biji?",
+    "jawaban_kaggle_asli": "Daun jambu biji (Psidium guajava) mengandung tanin, flavonoid, dan quercetin. Khasiat: (1) Antidiare - tanin dalam daun jambu biji efektif mengatasi diare, ini adalah penggunaan tradisional yang sudah didukung penelitian ilmiah, (2) Membantu meningkatkan trombosit - digunakan sebagai pendamping pengobatan DBD, (3) Antibakteri - menghambat bakteri penyebab diare, (4) Antioksidan - quercetin adalah antioksidan kuat, (5) Membantu menurunkan gula darah. Cara konsumsi: 5-7 lembar daun jambu biji muda direbus dengan 2 gelas air hingga tersisa 1 gelas, diminum 2x sehari.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 28,
+    "panjang_jawaban": 570
+  },
+  {
+    "id": 34,
+    "pertanyaan": "Apa itu akupunktur dan apakah diakui di Indonesia?",
+    "jawaban_kaggle_asli": "Akupunktur adalah teknik pengobatan tradisional Tiongkok yang menggunakan jarum halus yang ditusukkan pada titik-titik tertentu di tubuh (titik akupunktur) untuk menyeimbangkan aliran energi (qi). Di Indonesia, akupunktur diakui secara resmi dan diatur dalam Permenkes. Akupunktur hanya boleh dilakukan oleh tenaga kesehatan yang memiliki kompetensi akupunktur (dokter atau bidan yang telah mengikuti pelatihan). Khasiat yang didukung bukti ilmiah: meredakan nyeri kronis, mual pasca operasi, sakit kepala, dan nyeri punggung bawah.",
+    "topik": "praktik tradisional",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 50,
+    "panjang_jawaban": 532
+  },
+  {
+    "id": 35,
+    "pertanyaan": "Apa itu bekam (hijamah) dan manfaatnya?",
+    "jawaban_kaggle_asli": "Bekam atau hijamah adalah teknik pengobatan tradisional yang menggunakan cangkir (cup) untuk membuat tekanan negatif pada kulit, menarik darah ke permukaan. Dua jenis: bekam kering (tanpa mengeluarkan darah) dan bekam basah (kulit disayat tipis, darah dikeluarkan). Di Indonesia, bekam diatur dalam Permenkes tentang pelayanan kesehatan tradisional. Manfaat yang dilaporkan: (1) Meredakan nyeri otot dan punggung, (2) Melancarkan peredaran darah, (3) Mengurangi sakit kepala. Peringatan: harus dilakukan oleh praktisi terlatih dengan alat steril untuk menghindari infeksi.",
+    "topik": "praktik tradisional",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 39,
+    "panjang_jawaban": 572
+  },
+  {
+    "id": 36,
+    "pertanyaan": "Apa khasiat madu untuk kesehatan?",
+    "jawaban_kaggle_asli": "Madu adalah cairan manis yang diproduksi lebah dari nektar bunga. Madu mengandung fruktosa, glukosa, enzim, vitamin, mineral, dan senyawa antioksidan. Khasiat: (1) Antibakteri - madu memiliki aktivitas antibakteri, terutama madu manuka, (2) Penyembuhan luka - madu medis digunakan untuk merawat luka bakar dan luka kronis, (3) Meredakan batuk - efektif sebagai pereda batuk pada anak (di atas 1 tahun), (4) Antioksidan - melawan radikal bebas, (5) Sumber energi alami. Peringatan: madu TIDAK BOLEH diberikan kepada bayi di bawah 1 tahun karena risiko botulisme.",
+    "topik": "jamu",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 33,
+    "panjang_jawaban": 561
+  },
+  {
+    "id": 37,
+    "pertanyaan": "Apa khasiat minyak kelapa untuk kesehatan?",
+    "jawaban_kaggle_asli": "Minyak kelapa (Cocos nucifera) mengandung asam lemak rantai sedang (MCT), terutama asam laurat. Khasiat: (1) Antimikroba - asam laurat efektif melawan bakteri, virus, dan jamur, (2) Pelembab kulit dan rambut - digunakan sebagai minyak perawatan tradisional, (3) Kesehatan mulut - oil pulling (berkumur minyak kelapa) membantu mengurangi bakteri mulut, (4) Sumber energi cepat - MCT langsung diproses oleh hati, (5) Membantu penyembuhan luka - mempercepat regenerasi kulit. Minyak kelapa murni (VCO/Virgin Coconut Oil) memiliki kualitas lebih baik daripada minyak kelapa biasa.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 42,
+    "panjang_jawaban": 576
+  },
+  {
+    "id": 38,
+    "pertanyaan": "Apa peringatan penting tentang pengobatan tradisional?",
+    "jawaban_kaggle_asli": "Beberapa peringatan penting tentang pengobatan tradisional: (1) Jangan menggantikan pengobatan medis - obat tradisional bisa menjadi pelengkap, bukan pengganti pengobatan dokter, terutama untuk penyakit serius, (2) Interaksi obat - beberapa herbal dapat berinteraksi dengan obat konvensional dan menyebabkan efek berbahaya, (3) Dosis - herbal juga bisa overdosis, ikuti dosis yang direkomendasikan, (4) Ibu hamil dan menyusui - banyak herbal yang tidak aman untuk ibu hamil, konsultasikan dengan dokter, (5) Alergi - bahan alami juga bisa menyebabkan alergi, (6) Pilih produk berizin BPOM - hindari obat tradisional tanpa izin edar.",
+    "topik": "keamanan",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 54,
+    "panjang_jawaban": 632
+  },
+  {
+    "id": 39,
+    "pertanyaan": "Herbal apa saja yang berbahaya jika dikonsumsi bersamaan dengan obat medis?",
+    "jawaban_kaggle_asli": "Beberapa interaksi herbal-obat yang perlu diwaspadai: (1) Bawang putih + obat pengencer darah (warfarin) - meningkatkan risiko perdarahan, (2) Ginkgo biloba + aspirin/warfarin - meningkatkan risiko perdarahan, (3) St. John's Wort + antidepresan - risiko sindrom serotonin, (4) Kunyit dosis tinggi + obat diabetes - bisa menyebabkan gula darah terlalu rendah, (5) Jahe dosis tinggi + warfarin - meningkatkan efek pengencer darah, (6) Kava + obat hati - meningkatkan risiko kerusakan hati. Selalu informasikan dokter tentang herbal yang Anda konsumsi bersamaan dengan obat resep.",
+    "topik": "keamanan",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 75,
+    "panjang_jawaban": 577
+  },
+  {
+    "id": 40,
+    "pertanyaan": "Apa itu Sinshe dalam pengobatan tradisional?",
+    "jawaban_kaggle_asli": "Sinshe (Shinse) adalah praktisi pengobatan tradisional Tionghoa yang telah lama menjadi bagian dari budaya kesehatan di Indonesia, terutama di kota-kota dengan komunitas Tionghoa. Sinshe menggunakan metode: (1) Diagnosis melalui perabaan nadi (pulse diagnosis), observasi lidah, dan wawancara, (2) Pengobatan dengan ramuan herbal Tionghoa (obat Cina), (3) Akupunktur, (4) Tuina (pijat terapeutik), (5) Terapi diet dan gaya hidup. Di Indonesia, praktik Sinshe diatur dalam peraturan tentang pelayanan kesehatan tradisional dan harus terdaftar di Dinkes setempat.",
+    "topik": "praktik tradisional",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 44,
+    "panjang_jawaban": 561
+  },
+  {
+    "id": 41,
+    "pertanyaan": "Apa khasiat pegagan (daun kaki kuda)?",
+    "jawaban_kaggle_asli": "Pegagan atau daun kaki kuda (Centella asiatica) mengandung triterpenoid saponin (asiatikosida dan madekassosida). Khasiat: (1) Mempercepat penyembuhan luka - merangsang produksi kolagen, khasiat ini paling banyak diteliti dan dibuktikan, (2) Meningkatkan fungsi kognitif - membantu daya ingat dan konsentrasi, (3) Anti-kecemasan - efek menenangkan tanpa mengantuk, (4) Melancarkan peredaran darah - menguatkan pembuluh darah, (5) Antioksidan - melindungi sel otak. Di Jawa, pegagan dimakan sebagai lalapan. Di India, pegagan disebut 'gotu kola' dan digunakan dalam Ayurveda untuk kesehatan otak.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 37,
+    "panjang_jawaban": 595
+  },
+  {
+    "id": 42,
+    "pertanyaan": "Apa itu Usada Bali?",
+    "jawaban_kaggle_asli": "Usada adalah sistem pengobatan tradisional Bali yang berasal dari naskah lontar kuno. Kata 'usada' berasal dari bahasa Sanskerta 'ausadha' yang berarti obat. Sistem Usada mencakup: (1) Usada taru pramana - pengobatan dengan tumbuh-tumbuhan, (2) Usada sari - pengobatan dengan mantra dan ritual, (3) Usada cukil daki - pengobatan dengan pijat dan manipulasi fisik. Praktisi Usada disebut Balian. Pengetahuan Usada diturunkan melalui keluarga dan tertulis dalam lontar. Tradisi ini merupakan warisan budaya penting yang menggabungkan pengetahuan herbal, spiritual, dan fisik.",
+    "topik": "praktik tradisional",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 19,
+    "panjang_jawaban": 573
+  },
+  {
+    "id": 43,
+    "pertanyaan": "Apa khasiat daun binahong?",
+    "jawaban_kaggle_asli": "Daun binahong (Anredera cordifolia) mengandung saponin, flavonoid, dan polifenol. Khasiat: (1) Mempercepat penyembuhan luka - efek yang paling banyak digunakan secara tradisional, daun binahong ditumbuk lalu ditempelkan pada luka, (2) Anti-inflamasi - mengurangi pembengkakan, (3) Antibakteri - menghambat bakteri pada luka, (4) Meningkatkan stamina - dikonsumsi sebagai jus atau rebusan, (5) Membantu pemulihan pasca operasi - mempercepat regenerasi jaringan. Binahong mudah ditanam di pekarangan sebagai tanaman TOGA karena tumbuh merambat dan tidak memerlukan perawatan khusus.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 26,
+    "panjang_jawaban": 580
+  },
+  {
+    "id": 44,
+    "pertanyaan": "Apa khasiat brotowali?",
+    "jawaban_kaggle_asli": "Brotowali (Tinospora crispa) adalah tanaman merambat yang batangnya digunakan sebagai obat tradisional. Senyawa aktif: berberin dan tinokrisposid. Khasiat: (1) Antidiabetes - membantu menurunkan kadar gula darah, (2) Antipiretik - menurunkan demam, penggunaan tradisional yang paling terkenal, (3) Antimalarial - berberin memiliki aktivitas antimalaria, (4) Meningkatkan nafsu makan, (5) Antioksidan - melindungi hati dari kerusakan. Cara konsumsi: batang brotowali dipotong, direbus dengan 3 gelas air hingga tersisa 1 gelas, diminum 2x sehari. Rasanya sangat pahit.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 22,
+    "panjang_jawaban": 567
+  },
+  {
+    "id": 45,
+    "pertanyaan": "Bagaimana regulasi obat tradisional di Indonesia?",
+    "jawaban_kaggle_asli": "Regulasi obat tradisional di Indonesia diawasi oleh BPOM (Badan Pengawas Obat dan Makanan): (1) Setiap obat tradisional yang dijual harus memiliki nomor izin edar dari BPOM, (2) Tiga kategori: Jamu (TR), Obat Herbal Terstandar (HT), Fitofarmaka (FF), masing-masing dengan persyaratan berbeda, (3) Klaim khasiat harus sesuai dengan bukti yang dimiliki, (4) Dilarang mencampur obat tradisional dengan Bahan Kimia Obat (BKO) - ini sering menjadi masalah, (5) Produksi harus sesuai CPOTB (Cara Pembuatan Obat Tradisional yang Baik), (6) Iklan obat tradisional tidak boleh mengklaim menyembuhkan penyakit berat. Pelanggaran dikenai sanksi hukum.",
+    "topik": "regulasi",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 49,
+    "panjang_jawaban": 640
+  },
+  {
+    "id": 46,
+    "pertanyaan": "Apa itu BKO dalam obat tradisional?",
+    "jawaban_kaggle_asli": "BKO (Bahan Kimia Obat) dalam konteks obat tradisional adalah pencampuran obat kimia sintetis ke dalam produk yang diklaim sebagai obat tradisional/herbal. Ini ILEGAL dan berbahaya. Contoh BKO yang sering ditemukan BPOM: (1) Sildenafil - dalam jamu kuat lelaki, (2) Sibutramin - dalam jamu pelangsing, (3) Fenilbutazon - dalam jamu pegal linu, (4) Deksametason - dalam jamu alergi dan nyeri. Bahaya: dosis tidak terkontrol, interaksi obat tidak diketahui, efek samping tersembunyi. Tips aman: beli obat tradisional berizin BPOM, cek di website BPOM, dan waspadai klaim yang terlalu berlebihan.",
+    "topik": "keamanan",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 35,
+    "panjang_jawaban": 592
+  },
+  {
+    "id": 47,
+    "pertanyaan": "Apa saja tanaman obat yang mudah ditanam di pekarangan?",
+    "jawaban_kaggle_asli": "Tanaman obat yang mudah ditanam di pekarangan rumah (TOGA): (1) Jahe - rimpang, tahan di pot, panen 8-10 bulan, (2) Kunyit - rimpang, tumbuh subur di tanah lembab, (3) Sereh - rumput, sangat mudah tumbuh, (4) Lidah buaya - sukulen, butuh sedikit air, (5) Daun sirih - merambat, butuh tiang, (6) Kumis kucing - perdu, mudah stek, (7) Binahong - merambat, sangat mudah tumbuh, (8) Pepaya - pohon, daun bisa dipetik rutin, (9) Jambu biji - pohon, daun muda berkhasiat, (10) Kencur - rimpang kecil, bisa di pot. Tips: tanam di bedengan atau pot, beri label nama dan khasiat, dan buat catatan penggunaan untuk keluarga.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 55,
+    "panjang_jawaban": 614
+  },
+  {
+    "id": 48,
+    "pertanyaan": "Apa khasiat daun mint untuk kesehatan?",
+    "jawaban_kaggle_asli": "Daun mint (Mentha piperita) mengandung menthol sebagai senyawa aktif utama. Khasiat: (1) Meredakan gangguan pencernaan - menthol merelaksasi otot saluran cerna, mengatasi kembung, mual, dan sindrom iritasi usus (IBS), (2) Melegakan saluran napas - uap mint membantu mengatasi hidung tersumbat, (3) Meredakan sakit kepala - minyak mint dioleskan di pelipis, (4) Menyegarkan napas - antiseptik alami untuk mulut, (5) Anti-mual - efektif untuk mual saat perjalanan. Dikonsumsi sebagai teh mint, minyak atsiri (peppermint oil), atau campuran minuman.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 38,
+    "panjang_jawaban": 546
+  },
+  {
+    "id": 49,
+    "pertanyaan": "Apa itu jamu gendong?",
+    "jawaban_kaggle_asli": "Jamu gendong adalah tradisi penjualan jamu keliling yang khas Indonesia, terutama Jawa. Penjual jamu (biasanya perempuan, disebut 'mbok jamu') membawa botol-botol jamu dalam bakul yang digendong di punggung. Jamu yang dijual biasanya segar (baru dibuat hari itu): (1) Beras kencur - penambah nafsu makan, (2) Kunir asam - kesehatan wanita, (3) Pahitan/sambiloto - daya tahan tubuh, (4) Cabe puyang - pegal linu, (5) Sinom - dari daun asam muda, penyegar. Tradisi jamu gendong telah diakui UNESCO sebagai warisan budaya tak benda Indonesia. Meski kini ada jamu kemasan modern, jamu gendong masih diminati karena kesegaran dan keasliannya.",
+    "topik": "jamu",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 21,
+    "panjang_jawaban": 637
+  },
+  {
+    "id": 50,
+    "pertanyaan": "Apa perbedaan obat tradisional dan obat modern?",
+    "jawaban_kaggle_asli": "Perbedaan utama obat tradisional dan obat modern: (1) Bahan - tradisional dari alam (tumbuhan, hewan, mineral), modern dari sintesis kimia, (2) Standar uji - tradisional berdasarkan pengalaman empiris (kecuali fitofarmaka), modern wajib uji klinis ketat, (3) Kandungan - tradisional mengandung banyak senyawa alami (multi-komponen), modern biasanya satu senyawa murni, (4) Efek - tradisional umumnya lebih lambat dan holistik, modern lebih cepat dan spesifik, (5) Efek samping - tradisional umumnya lebih ringan (tapi tetap ada), modern lebih terukur, (6) Regulasi - di Indonesia keduanya diawasi (BPOM untuk OT, juga BPOM untuk obat modern). Keduanya bisa saling melengkapi (komplementer).",
+    "topik": "regulasi",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 47,
+    "panjang_jawaban": 690
+  },
+  {
+    "id": 51,
+    "pertanyaan": "Apa khasiat temu ireng?",
+    "jawaban_kaggle_asli": "Temu ireng (Curcuma aeruginosa) adalah rimpang berwarna hijau kebiruan yang banyak digunakan dalam jamu Jawa. Senyawa aktif: kurkuminoid dan germakron. Khasiat: (1) Anthelmintik - membantu mengatasi cacingan pada anak, ini adalah penggunaan tradisional yang paling terkenal, (2) Meningkatkan nafsu makan anak - sering dikombinasikan dengan temulawak, (3) Antibakteri - menghambat pertumbuhan bakteri, (4) Anti-inflamasi - mengurangi peradangan, (5) Melancarkan haid - emmenagogue tradisional. Temu ireng biasanya diberikan pada anak dalam bentuk jamu seduhan atau dicampur madu untuk mengurangi rasa pahit.",
+    "topik": "tanaman",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": false,
+    "panjang_pertanyaan": 23,
+    "panjang_jawaban": 606
+  },
+  {
+    "id": 52,
+    "pertanyaan": "Apa itu tapel dalam perawatan tradisional Jawa?",
+    "jawaban_kaggle_asli": "Tapel adalah ramuan tradisional Jawa berupa pasta yang ditempelkan pada perut ibu setelah melahirkan. Bahan: campuran kunyit, temu giring, kencur, beras, dan bahan lain yang ditumbuk halus. Tapel dioleskan di area perut dan diikat dengan kain (stagen/bengkung). Tujuan: (1) Membantu mengecilkan perut pasca melahirkan, (2) Menghangatkan rahim - rempah memberikan efek termal, (3) Mencegah masuk angin, (4) Mengencangkan kulit perut. Tapel merupakan bagian dari rangkaian perawatan pasca melahirkan tradisional Jawa yang juga meliputi: pijat, mandi rempah, minum jamu, dan penggunaan bengkung.",
+    "topik": "praktik tradisional",
+    "status_validasi": "BELUM_TERVERIFIKASI",
+    "indikasi_perlu_review_ketat": true,
+    "panjang_pertanyaan": 47,
+    "panjang_jawaban": 592
+  }
+]

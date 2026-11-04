@@ -1,0 +1,83 @@
+[
+  {
+    "source_id": "BPOM-01",
+    "judul": "Penggolongan Jamu, OHT, Fitofarmaka",
+    "topik": "regulasi",
+    "ringkasan_aman": "Ringkasan tingkatan pembuktian obat bahan alam",
+    "source_url": "https://jayapura.pom.go.id/hot-issue/penggolongan-obat-bahan-alam",
+    "otoritas": "BPOM RI",
+    "status_review": "RUJUKAN_BPOM_PERLU_KURASI_PER_KLAIM"
+  },
+  {
+    "source_id": "BPOM-02",
+    "judul": "Cek Produk BPOM",
+    "topik": "registrasi",
+    "ringkasan_aman": "Portal untuk memeriksa status registrasi produk berdasarkan nama atau nomor izin edar",
+    "source_url": "https://cekbpom.pom.go.id/",
+    "otoritas": "BPOM RI",
+    "status_review": "RUJUKAN_BPOM_PERLU_KURASI_PER_KLAIM"
+  },
+  {
+    "source_id": "BPOM-03",
+    "judul": "Edukasi Memilih Jamu yang Aman",
+    "topik": "keamanan",
+    "ringkasan_aman": "Cek KLIK: Kemasan, Label, Izin Edar, Kedaluwarsa",
+    "source_url": "https://medan.pom.go.id/berita/edukasi-sadar-memilih-jamu-yang-aman",
+    "otoritas": "BPOM RI",
+    "status_review": "RUJUKAN_BPOM_PERLU_KURASI_PER_KLAIM"
+  },
+  {
+    "source_id": "BPOM-04",
+    "judul": "Obat Bahan Alam dan Interaksi Obat Kimiawi",
+    "topik": "interaksi",
+    "ringkasan_aman": "BPOM membahas potensi interaksi produk herbal dan obat kimiawi",
+    "source_url": "https://www.pom.go.id/berita/obat-bahan-alam-dan-interaksinya-dengan-obat-kimiawi",
+    "otoritas": "BPOM RI",
+    "status_review": "RUJUKAN_BPOM_PERLU_KURASI_PER_KLAIM"
+  },
+  {
+    "source_id": "BPOM-05",
+    "judul": "Bahaya BKO dalam Obat Tradisional",
+    "topik": "bko",
+    "ringkasan_aman": "Informasi risiko penambahan bahan kimia obat ke produk tradisional",
+    "source_url": "https://www.pom.go.id/berita/bahaya-bahan-kimia-obat-%28bko%29-yang-dibubuhkan-kedalam-obat-tradisional-%28jamu%29",
+    "otoritas": "BPOM RI",
+    "status_review": "RUJUKAN_BPOM_PERLU_KURASI_PER_KLAIM"
+  },
+  {
+    "source_id": "BPOM-06",
+    "judul": "Pedoman Klaim Khasiat Obat Bahan Alam",
+    "topik": "regulasi",
+    "ringkasan_aman": "Prinsip klaim harus objektif dan mempunyai bukti yang sesuai",
+    "source_url": "https://standar-otskk.pom.go.id/kegiatan/sosialisasi-peraturan-badan-pengawas-obat-dan-makanan-nomor-29-tahun-2023-dan-peraturan-badan-pengawas-obat-dan-makanan-nomor-30-tahun-2023",
+    "otoritas": "BPOM RI",
+    "status_review": "RUJUKAN_BPOM_PERLU_KURASI_PER_KLAIM"
+  },
+  {
+    "source_id": "BPOM-07",
+    "judul": "Registrasi OBA Bentuk Tunggal",
+    "topik": "temulawak",
+    "ringkasan_aman": "Informasi kategori klaim yang tercantum dalam daftar registrasi bahan tunggal",
+    "source_url": "https://standar-otskk.pom.go.id/otskk-db/kategori/registrasi-oba-bentuk-tunggal",
+    "otoritas": "BPOM RI",
+    "status_review": "RUJUKAN_BPOM_PERLU_KURASI_PER_KLAIM"
+  },
+  {
+    "source_id": "BPOM-08",
+    "judul": "Informasi UMKM Jamu Gendong",
+    "topik": "jamu gendong",
+    "ringkasan_aman": "Artikel tentang pendampingan pelaku usaha jamu gendong",
+    "source_url": "https://www.pom.go.id/berita/dukung-daya-saing-jamu-badan-pom-dampingi-pelaku-usaha-jamu-gendong",
+    "otoritas": "BPOM RI",
+    "status_review": "RUJUKAN_BPOM_PERLU_KURASI_PER_KLAIM"
+  },
+  {
+    "source_id": "BPOM-09",
+    "judul": "Standar Mutu Bahan Baku OBA",
+    "topik": "bahan baku",
+    "ringkasan_aman": "Informasi mutu bahan, termasuk contoh kunyit, temulawak, minyak kayu putih",
+    "source_url": "https://tasikmalaya.pom.go.id/berita/standar-mutu-bahan-baku-obat-bahan-alam-menjaga-kualitas-warisan-nusantara",
+    "otoritas": "BPOM RI",
+    "status_review": "RUJUKAN_BPOM_PERLU_KURASI_PER_KLAIM"
+  }
+]

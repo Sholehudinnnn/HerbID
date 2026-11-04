@@ -16,7 +16,10 @@ from app.services.search_service import search_engine
 
 def initialize_system() -> None:
     """Ensure SQLite database is populated and TF-IDF index is built on startup."""
-    Base.metadata.create_all(bind=engine)
+    try:
+        Base.metadata.create_all(bind=engine)
+    except Exception:
+        pass
     db = SessionLocal()
     try:
         has_sources = db.query(Source).count() > 0
@@ -26,8 +29,14 @@ def initialize_system() -> None:
             is not None
         )
         if not has_sources or not has_plants or not has_froti:
-            run_import(db_session=db)
-        search_engine.build_index(db)
+            try:
+                run_import(db_session=db)
+            except Exception:
+                pass
+        try:
+            search_engine.build_index(db)
+        except Exception:
+            pass
     finally:
         db.close()
 

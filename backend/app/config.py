@@ -17,10 +17,19 @@ if ENV_FILE.exists():
             if _k:
                 os.environ[_k] = _v
 
-INCOMING_DIR = Path(os.getenv("HERB_INCOMING_DIR", str(BASE_DIR / "data" / "incoming")))
-PROCESSED_DIR = Path(os.getenv("HERB_PROCESSED_DIR", str(BASE_DIR / "data" / "processed")))
+# Dynamic DATA_DIR detection (supports root, backend subfolder, or environment override)
+_possible_data_dirs = [
+    Path(os.getenv("HERB_DATA_DIR", "")),
+    BASE_DIR / "data",
+    Path(__file__).resolve().parent.parent / "data",
+    Path.cwd() / "data",
+]
+DATA_DIR = next((d for d in _possible_data_dirs if d and d.is_dir()), BASE_DIR / "data")
+
+INCOMING_DIR = Path(os.getenv("HERB_INCOMING_DIR", str(DATA_DIR / "incoming")))
+PROCESSED_DIR = Path(os.getenv("HERB_PROCESSED_DIR", str(DATA_DIR / "processed")))
 DB_PATH = Path(os.getenv("HERB_DB_PATH", str(PROCESSED_DIR / "herb_info.db")))
-IMPORT_REPORT_PATH = BASE_DIR / "data" / "import_report.json"
+IMPORT_REPORT_PATH = DATA_DIR / "import_report.json"
 INDEX_META_PATH = PROCESSED_DIR / "index_metadata.json"
 
 CORS_ORIGINS = [

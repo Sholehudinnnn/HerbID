@@ -1,0 +1,36 @@
+﻿id_uji,kategori_uji,pertanyaan_uji,target_korpus,gold_relevant_ids,kandidat_dokumen_petunjuk_anotator,catatan_anotasi
+EV-01,keluhan_froti_eksak,"Saya demam, ada informasi ramuan tradisional sambiloto?",Ramuan FROTI,,FROTI-001,Menunggu verifikasi manual anotator
+EV-02,keluhan_froti_eksak,Ramuan tradisional kencur untuk sakit kepala sebelah,Ramuan FROTI,,FROTI-002;FROTI-003,Menunggu verifikasi manual anotator
+EV-03,keluhan_froti_eksak,Pucuk daun teh untuk mengatasi sakit kepala sebelah,Ramuan FROTI,,FROTI-003;FROTI-002,Menunggu verifikasi manual anotator
+EV-04,keluhan_froti_eksak,Rebusan daun sirih untuk berkumur saat sakit tenggorokan,Ramuan FROTI,,FROTI-004;R-006,Menunggu verifikasi manual anotator
+EV-05,keluhan_froti_eksak,Herba timi untuk meredakan batuk berdahak,Ramuan FROTI,,FROTI-005;FROTI-006;FROTI-007,Menunggu verifikasi manual anotator
+EV-06,keluhan_froti_eksak,Akar manis untuk ramuan batuk berdahak,Ramuan FROTI,,FROTI-006;FROTI-005;FROTI-007,Menunggu verifikasi manual anotator
+EV-07,keluhan_froti_eksak,Seduhan buah adas untuk batuk berdahak,Ramuan FROTI,,FROTI-007;FROTI-005;FROTI-006,Menunggu verifikasi manual anotator
+EV-08,keluhan_froti_eksak,Ramuan jahe untuk keluhan leher kaku,Ramuan FROTI,,FROTI-008,Menunggu verifikasi manual anotator
+EV-09,keluhan_froti_eksak,Olesan rimpang kencur dan beras untuk terkilir,Ramuan FROTI,,FROTI-009;FROTI-010,Menunggu verifikasi manual anotator
+EV-10,keluhan_froti_eksak,Parutan rimpang lengkuas untuk terkilir luar,Ramuan FROTI,,FROTI-010;FROTI-009,Menunggu verifikasi manual anotator
+EV-11,keluhan_froti_eksak,Rebusan akar alang-alang untuk panas dalam,Ramuan FROTI,,FROTI-011;FROTI-012,Menunggu verifikasi manual anotator
+EV-12,keluhan_froti_eksak,Perasan daun cincau untuk meredakan panas dalam,Ramuan FROTI,,FROTI-012;FROTI-011,Menunggu verifikasi manual anotator
+EV-13,keluhan_froti_eksak,Rimpang temu hitam untuk nafsu makan berkurang,Ramuan FROTI,,FROTI-013;FROTI-014,Menunggu verifikasi manual anotator
+EV-14,keluhan_froti_eksak,Daun pepaya segar untuk mengatasi nafsu makan berkurang pada anak,Ramuan FROTI,,FROTI-014;FROTI-013,Menunggu verifikasi manual anotator
+EV-15,keluhan_froti_eksak,Rimpang kunyit untuk keluhan perut kembung,Ramuan FROTI,,FROTI-015,Menunggu verifikasi manual anotator
+EV-16,keluhan_froti_eksak,Seduhan jahe untuk gangguan lambung,Ramuan FROTI,,FROTI-016;FROTI-017,Menunggu verifikasi manual anotator
+EV-17,keluhan_froti_eksak,Ramuan jahe hangat untuk masuk angin,Ramuan FROTI,,FROTI-017;R-003,Menunggu verifikasi manual anotator
+EV-18,keluhan_froti_eksak,Kayu manis untuk meredakan nyeri haid,Ramuan FROTI,,FROTI-018;R-001,Menunggu verifikasi manual anotator
+EV-19,keluhan_froti_eksak,Daun andong untuk keluhan haid tidak teratur,Ramuan FROTI,,FROTI-019,Menunggu verifikasi manual anotator
+EV-20,sinonim_keluhan,Obat tradisional untuk migrain dan pusing sebelah,Ramuan FROTI,,FROTI-002;FROTI-003,Uji ekspansi sinonim migrain -> sakit kepala sebelah
+EV-21,sinonim_keluhan,Ramuan untuk perut begah dan maag asam lambung,Ramuan FROTI,,FROTI-015;FROTI-016,Uji ekspansi sinonim begah/maag -> perut kembung & gangguan lambung
+EV-22,sinonim_keluhan,Cara mengobati kaki keseleo dan salah urat,Ramuan FROTI,,FROTI-009;FROTI-010,Uji ekspansi sinonim keseleo/salah urat -> terkilir
+EV-23,sinonim_keluhan,Ramuan herbal untuk leher tengeng karena salah bantal,Ramuan FROTI,,FROTI-008,Uji ekspansi sinonim tengeng/salah bantal -> leher kaku
+EV-24,sinonim_keluhan,Minuman tradisional untuk dismenore saat datang bulan,Ramuan FROTI,,FROTI-018;R-001,Uji ekspansi sinonim dismenore -> nyeri haid
+EV-25,istilah_tanaman_lokal,Manfaat daun ki oray atau pepaitan untuk demam,Ramuan FROTI,,FROTI-001,Uji pengenalan istilah lokal ki oray/pepaitan -> sambiloto
+EV-26,istilah_tanaman_lokal,Ramuan cikur dan laja untuk bengkak terkilir,Ramuan FROTI,,FROTI-009;FROTI-010,Uji pengenalan istilah lokal Sunda cikur (kencur) & laja (lengkuas)
+EV-27,istilah_tanaman_lokal,Daun suruh untuk kumur radang tenggorokan,Ramuan FROTI,,FROTI-004;R-006,Uji pengenalan istilah lokal Jawa suruh -> daun sirih
+EV-28,istilah_tanaman_lokal,Rimpang temu ireng untuk anak susah makan,Ramuan FROTI,,FROTI-013;FROTI-014,Uji pengenalan istilah lokal temu ireng -> temu hitam
+EV-29,istilah_tanaman_lokal,Rebusan daun hanjuang untuk siklus menstruasi,Ramuan FROTI,,FROTI-019,Uji pengenalan istilah lokal hanjuang -> andong
+EV-30,typo_salah_ketik_ringan,ramuan sambilto untuk demm tinggi,Ramuan FROTI,,FROTI-001,Uji koreksi typo sambilto -> sambiloto & demm -> demam
+EV-31,typo_salah_ketik_ringan,rimpang kunyt untuk perut kembng,Ramuan FROTI,,FROTI-015,Uji koreksi typo kunyt -> kunyit & kembng -> kembung
+EV-32,typo_salah_ketik_ringan,daun pepya untuk nafsu makan berkurang,Ramuan FROTI,,FROTI-014,Uji koreksi typo pepya -> pepaya
+EV-33,rujukan_bpom_regulasi,"Apa perbedaan jamu, OHT, dan fitofarmaka menurut BPOM?",Sumber BPOM,,BPOM-01,Menunggu verifikasi manual anotator
+EV-34,rujukan_bpom_keamanan,Bahaya penambahan BKO bahan kimia obat pada jamu,Sumber BPOM,,BPOM-05,Menunggu verifikasi manual anotator
+EV-35,rujukan_bpom_interaksi,Interaksi obat herbal dengan obat medis konvensional,Sumber BPOM,,BPOM-04,Menunggu verifikasi manual anotator

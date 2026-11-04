@@ -1,0 +1,343 @@
+[
+  {
+    "id": 28,
+    "slug": "asam-jawa",
+    "nama_umum": "Asam Jawa",
+    "nama_ilmiah": null,
+    "famili": null,
+    "nama_lokal": [
+      "Asam",
+      "Sinom (Daun Asam Muda)"
+    ],
+    "status_verifikasi": "Data terbatas",
+    "sumber_data": " Disebutkan sebagai bahan tanaman lokal pada Q&A #6, #9, #30, #49"
+  },
+  {
+    "id": 25,
+    "slug": "brotowali",
+    "nama_umum": "Brotowali",
+    "nama_ilmiah": "Tinospora crispa",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #44 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 30,
+    "slug": "cabe-puyang",
+    "nama_umum": "Cabe Puyang",
+    "nama_ilmiah": null,
+    "famili": null,
+    "nama_lokal": [
+      "Puyang"
+    ],
+    "status_verifikasi": "Data terbatas",
+    "sumber_data": " Disebutkan sebagai bahan tanaman lokal pada Q&A #49"
+  },
+  {
+    "id": 18,
+    "slug": "cengkeh",
+    "nama_umum": "Cengkeh",
+    "nama_ilmiah": "Syzygium aromaticum",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #27 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 24,
+    "slug": "daun-binahong",
+    "nama_umum": "Daun Binahong",
+    "nama_ilmiah": "Anredera cordifolia",
+    "famili": null,
+    "nama_lokal": [
+      "Binahong"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #43 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 21,
+    "slug": "daun-jambu-biji",
+    "nama_umum": "Daun Jambu Biji",
+    "nama_ilmiah": "Psidium guajava",
+    "famili": null,
+    "nama_lokal": [
+      "Jambu Biji"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #33 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 26,
+    "slug": "daun-mint",
+    "nama_umum": "Daun Mint",
+    "nama_ilmiah": "Mentha piperita",
+    "famili": null,
+    "nama_lokal": [
+      "Peppermint"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #48 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 16,
+    "slug": "daun-pepaya",
+    "nama_umum": "Daun Pepaya",
+    "nama_ilmiah": "Carica papaya",
+    "famili": null,
+    "nama_lokal": [
+      "Pepaya"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #23 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 5,
+    "slug": "daun-sirih",
+    "nama_umum": "Daun Sirih",
+    "nama_ilmiah": "Piper betle",
+    "famili": null,
+    "nama_lokal": [
+      "Sirih"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #10 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 13,
+    "slug": "daun-sirsak",
+    "nama_umum": "Daun Sirsak",
+    "nama_ilmiah": "Annona muricata",
+    "famili": null,
+    "nama_lokal": [
+      "Sirsak"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #20 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 1,
+    "slug": "jahe",
+    "nama_umum": "Jahe",
+    "nama_ilmiah": "Zingiber officinale",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #5 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 17,
+    "slug": "kayu-manis",
+    "nama_umum": "Kayu Manis",
+    "nama_ilmiah": "Cinnamomum verum / Cinnamomum burmannii",
+    "famili": null,
+    "nama_lokal": [
+      "Cassia"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #26 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 7,
+    "slug": "kayu-putih",
+    "nama_umum": "Kayu Putih",
+    "nama_ilmiah": "Melaleuca cajuputi",
+    "famili": null,
+    "nama_lokal": [
+      "Pohon Kayu Putih"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #12 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 20,
+    "slug": "kayu-secang",
+    "nama_umum": "Kayu Secang",
+    "nama_ilmiah": "Caesalpinia sappan",
+    "famili": null,
+    "nama_lokal": [
+      "Secang"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #29 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 22,
+    "slug": "kelapa",
+    "nama_umum": "Kelapa",
+    "nama_ilmiah": "Cocos nucifera",
+    "famili": null,
+    "nama_lokal": [
+      "Nyiur"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #37 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 4,
+    "slug": "kencur",
+    "nama_umum": "Kencur",
+    "nama_ilmiah": "Kaempferia galanga",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #8 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 10,
+    "slug": "kumis-kucing",
+    "nama_umum": "Kumis Kucing",
+    "nama_ilmiah": "Orthosiphon aristatus",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #16 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 2,
+    "slug": "kunyit",
+    "nama_umum": "Kunyit",
+    "nama_ilmiah": "Curcuma longa",
+    "famili": null,
+    "nama_lokal": [
+      "Kunir"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #6 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 14,
+    "slug": "lengkuas",
+    "nama_umum": "Lengkuas",
+    "nama_ilmiah": "Alpinia galanga",
+    "famili": null,
+    "nama_lokal": [
+      "Laos"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #21 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 6,
+    "slug": "lidah-buaya",
+    "nama_umum": "Lidah Buaya",
+    "nama_ilmiah": "Aloe vera",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #11 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 12,
+    "slug": "mengkudu",
+    "nama_umum": "Mengkudu",
+    "nama_ilmiah": "Morinda citrifolia",
+    "famili": null,
+    "nama_lokal": [
+      "Pace"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #18 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 9,
+    "slug": "meniran",
+    "nama_umum": "Meniran",
+    "nama_ilmiah": "Phyllanthus niruri",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #15 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 19,
+    "slug": "pala",
+    "nama_umum": "Pala",
+    "nama_ilmiah": "Myristica fragrans",
+    "famili": null,
+    "nama_lokal": [
+      "Fuli (Bunga Pala)"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #28 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 23,
+    "slug": "pegagan",
+    "nama_umum": "Pegagan",
+    "nama_ilmiah": "Centella asiatica",
+    "famili": null,
+    "nama_lokal": [
+      "Daun Kaki Kuda",
+      "Gotu Kola"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #41 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 8,
+    "slug": "sambiloto",
+    "nama_umum": "Sambiloto",
+    "nama_ilmiah": "Andrographis paniculata",
+    "famili": null,
+    "nama_lokal": [
+      "Pahitan",
+      "Raja Pahit"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #14 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 11,
+    "slug": "seledri",
+    "nama_umum": "Seledri",
+    "nama_ilmiah": "Apium graveolens",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #17 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 15,
+    "slug": "sereh",
+    "nama_umum": "Sereh",
+    "nama_ilmiah": "Cymbopogon citratus",
+    "famili": null,
+    "nama_lokal": [
+      "Serai"
+    ],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #22 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 29,
+    "slug": "temu-giring",
+    "nama_umum": "Temu Giring",
+    "nama_ilmiah": null,
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Data terbatas",
+    "sumber_data": " Disebutkan sebagai bahan tanaman lokal pada Q&A #52"
+  },
+  {
+    "id": 27,
+    "slug": "temu-ireng",
+    "nama_umum": "Temu Ireng",
+    "nama_ilmiah": "Curcuma aeruginosa",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #51 (Kaggle) & Pemetaan Topik BPOM"
+  },
+  {
+    "id": 3,
+    "slug": "temulawak",
+    "nama_umum": "Temulawak",
+    "nama_ilmiah": "Curcuma xanthorrhiza",
+    "famili": null,
+    "nama_lokal": [],
+    "status_verifikasi": "Perlu verifikasi",
+    "sumber_data": "Ekstraksi Entitas Q&A #7 (Kaggle) & Pemetaan Topik BPOM"
+  }
+]

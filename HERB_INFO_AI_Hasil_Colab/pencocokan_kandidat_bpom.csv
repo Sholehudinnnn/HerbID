@@ -1,0 +1,54 @@
+﻿id,pertanyaan,source_id,status_kecocokan,klaim_medis_disetujui,judul,source_url
+1,Apa itu pengobatan tradisional?,BPOM-01,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,"Penggolongan Jamu, OHT, Fitofarmaka",https://jayapura.pom.go.id/hot-issue/penggolongan-obat-bahan-alam
+2,Apa itu jamu?,BPOM-01,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,"Penggolongan Jamu, OHT, Fitofarmaka",https://jayapura.pom.go.id/hot-issue/penggolongan-obat-bahan-alam
+3,"Apa perbedaan Jamu, Obat Herbal Terstandar, dan Fitofarmaka?",BPOM-01,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,"Penggolongan Jamu, OHT, Fitofarmaka",https://jayapura.pom.go.id/hot-issue/penggolongan-obat-bahan-alam
+4,Apa itu tanaman obat?,BPOM-09,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Standar Mutu Bahan Baku OBA,https://tasikmalaya.pom.go.id/berita/standar-mutu-bahan-baku-obat-bahan-alam-menjaga-kualitas-warisan-nusantara
+5,Apa khasiat jahe untuk kesehatan?,BPOM-09,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Standar Mutu Bahan Baku OBA,https://tasikmalaya.pom.go.id/berita/standar-mutu-bahan-baku-obat-bahan-alam-menjaga-kualitas-warisan-nusantara
+6,Apa khasiat kunyit untuk kesehatan?,BPOM-09,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Standar Mutu Bahan Baku OBA,https://tasikmalaya.pom.go.id/berita/standar-mutu-bahan-baku-obat-bahan-alam-menjaga-kualitas-warisan-nusantara
+7,Apa itu temulawak dan apa manfaatnya?,BPOM-07,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Registrasi OBA Bentuk Tunggal,https://standar-otskk.pom.go.id/otskk-db/kategori/registrasi-oba-bentuk-tunggal
+8,Apa khasiat kencur?,,PERLU_REFERENSI_TAMBAHAN,False,,
+9,Apa itu jamu beras kencur?,BPOM-08,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Informasi UMKM Jamu Gendong,https://www.pom.go.id/berita/dukung-daya-saing-jamu-badan-pom-dampingi-pelaku-usaha-jamu-gendong
+10,Apa khasiat daun sirih?,,PERLU_REFERENSI_TAMBAHAN,False,,
+11,Apa khasiat lidah buaya untuk kesehatan?,,PERLU_REFERENSI_TAMBAHAN,False,,
+12,Apa itu minyak kayu putih dan apa kegunaannya?,,PERLU_REFERENSI_TAMBAHAN,False,,
+13,Apa itu TOGA?,,PERLU_REFERENSI_TAMBAHAN,False,,
+14,Apa khasiat sambiloto?,,PERLU_REFERENSI_TAMBAHAN,False,,
+15,Apa itu meniran dan apa khasiatnya?,,PERLU_REFERENSI_TAMBAHAN,False,,
+16,Apa khasiat kumis kucing?,,PERLU_REFERENSI_TAMBAHAN,False,,
+17,Apa khasiat seledri untuk kesehatan?,,PERLU_REFERENSI_TAMBAHAN,False,,
+18,Apa khasiat mengkudu (pace)?,,PERLU_REFERENSI_TAMBAHAN,False,,
+19,Apa itu loloh dalam pengobatan tradisional Bali?,,PERLU_REFERENSI_TAMBAHAN,False,,
+20,Apa khasiat daun sirsak?,,PERLU_REFERENSI_TAMBAHAN,False,,
+21,Apa khasiat lengkuas?,,PERLU_REFERENSI_TAMBAHAN,False,,
+22,Apa khasiat sereh (serai)?,,PERLU_REFERENSI_TAMBAHAN,False,,
+23,Apa khasiat daun pepaya?,,PERLU_REFERENSI_TAMBAHAN,False,,
+24,Apa itu wedang uwuh?,,PERLU_REFERENSI_TAMBAHAN,False,,
+25,Apa itu minyak gosok tradisional?,,PERLU_REFERENSI_TAMBAHAN,False,,
+26,Apa khasiat kayu manis?,,PERLU_REFERENSI_TAMBAHAN,False,,
+27,Apa khasiat cengkeh untuk kesehatan?,,PERLU_REFERENSI_TAMBAHAN,False,,
+28,Apa khasiat pala?,,PERLU_REFERENSI_TAMBAHAN,False,,
+29,Apa khasiat kayu secang?,,PERLU_REFERENSI_TAMBAHAN,False,,
+30,Bagaimana cara membuat jamu kunyit asam?,,PERLU_REFERENSI_TAMBAHAN,False,,
+31,Apa itu boreh dalam tradisi Bali?,,PERLU_REFERENSI_TAMBAHAN,False,,
+32,Apa itu mandi rempah pasca melahirkan?,,PERLU_REFERENSI_TAMBAHAN,False,,
+33,Apa khasiat daun jambu biji?,,PERLU_REFERENSI_TAMBAHAN,False,,
+34,Apa itu akupunktur dan apakah diakui di Indonesia?,,PERLU_REFERENSI_TAMBAHAN,False,,
+35,Apa itu bekam (hijamah) dan manfaatnya?,,PERLU_REFERENSI_TAMBAHAN,False,,
+36,Apa khasiat madu untuk kesehatan?,,PERLU_REFERENSI_TAMBAHAN,False,,
+37,Apa khasiat minyak kelapa untuk kesehatan?,,PERLU_REFERENSI_TAMBAHAN,False,,
+38,Apa peringatan penting tentang pengobatan tradisional?,BPOM-03,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Edukasi Memilih Jamu yang Aman,https://medan.pom.go.id/berita/edukasi-sadar-memilih-jamu-yang-aman
+39,Herbal apa saja yang berbahaya jika dikonsumsi bersamaan dengan obat medis?,BPOM-04,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Obat Bahan Alam dan Interaksi Obat Kimiawi,https://www.pom.go.id/berita/obat-bahan-alam-dan-interaksinya-dengan-obat-kimiawi
+40,Apa itu Sinshe dalam pengobatan tradisional?,,PERLU_REFERENSI_TAMBAHAN,False,,
+41,Apa khasiat pegagan (daun kaki kuda)?,,PERLU_REFERENSI_TAMBAHAN,False,,
+42,Apa itu Usada Bali?,,PERLU_REFERENSI_TAMBAHAN,False,,
+43,Apa khasiat daun binahong?,,PERLU_REFERENSI_TAMBAHAN,False,,
+44,Apa khasiat brotowali?,,PERLU_REFERENSI_TAMBAHAN,False,,
+45,Bagaimana regulasi obat tradisional di Indonesia?,BPOM-06,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Pedoman Klaim Khasiat Obat Bahan Alam,https://standar-otskk.pom.go.id/kegiatan/sosialisasi-peraturan-badan-pengawas-obat-dan-makanan-nomor-29-tahun-2023-dan-peraturan-badan-pengawas-obat-dan-makanan-nomor-30-tahun-2023
+45,Bagaimana regulasi obat tradisional di Indonesia?,BPOM-02,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Cek Produk BPOM,https://cekbpom.pom.go.id/
+46,Apa itu BKO dalam obat tradisional?,BPOM-05,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Bahaya BKO dalam Obat Tradisional,https://www.pom.go.id/berita/bahaya-bahan-kimia-obat-%28bko%29-yang-dibubuhkan-kedalam-obat-tradisional-%28jamu%29
+47,Apa saja tanaman obat yang mudah ditanam di pekarangan?,,PERLU_REFERENSI_TAMBAHAN,False,,
+48,Apa khasiat daun mint untuk kesehatan?,,PERLU_REFERENSI_TAMBAHAN,False,,
+49,Apa itu jamu gendong?,BPOM-08,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,Informasi UMKM Jamu Gendong,https://www.pom.go.id/berita/dukung-daya-saing-jamu-badan-pom-dampingi-pelaku-usaha-jamu-gendong
+50,Apa perbedaan obat tradisional dan obat modern?,BPOM-01,KANDIDAT_TOPIK_PERLU_VERIFIKASI,False,"Penggolongan Jamu, OHT, Fitofarmaka",https://jayapura.pom.go.id/hot-issue/penggolongan-obat-bahan-alam
+51,Apa khasiat temu ireng?,,PERLU_REFERENSI_TAMBAHAN,False,,
+52,Apa itu tapel dalam perawatan tradisional Jawa?,,PERLU_REFERENSI_TAMBAHAN,False,,

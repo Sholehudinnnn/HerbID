@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1. Jalankan Backend (FastAPI)",
+      "type": "shell",
+      "command": "py -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --app-dir backend --reload",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "backend"
+      }
+    },
+    {
+      "label": "2. Jalankan Frontend (React + Vite)",
+      "type": "shell",
+      "command": "npm run dev",
+      "options": {
+        "cwd": "${workspaceFolder}/frontend"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "frontend"
+      }
+    },
+    {
+      "label": "Jalankan Keduanya (Backend + Frontend)",
+      "dependsOn": [
+        "1. Jalankan Backend (FastAPI)",
+        "2. Jalankan Frontend (React + Vite)"
+      ],
+      "dependsOrder": "parallel",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "3. Jalankan Pengujian (Pytest)",
+      "type": "shell",
+      "command": "$env:PYTHONPATH='backend'; py -m pytest tests/ -v",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    }
+  ]
+}

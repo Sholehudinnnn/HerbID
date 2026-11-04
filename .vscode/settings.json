@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\ASUS TUF\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/backend"
+  ],
+  "python.envFile": "${workspaceFolder}/.env",
+  "markdown.preview.typographer": true
+}

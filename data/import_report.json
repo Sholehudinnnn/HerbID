@@ -1,0 +1,597 @@
+{
+  "timestamp": "2026-10-31T12:19:49Z",
+  "incoming_dir": "data\\incoming",
+  "processed_dir": "data\\processed",
+  "files_found": {
+    "jsonl_present": true,
+    "zip_present": true
+  },
+  "zip_security_audit": {
+    "status": "PASSED",
+    "extracted_file_count": 8,
+    "extracted_files": [
+      "bpom_semantic_embeddings.npy",
+      "bpom_sumber_resmi.csv",
+      "eda_distribusi_panjang.png",
+      "pencocokan_kandidat_bpom.csv",
+      "qa_clean_belum_terverifikasi.csv",
+      "template_evaluasi_manual.csv",
+      "tfidf_matrix.npz",
+      "tfidf_vectorizer.joblib"
+    ],
+    "joblib_auto_deserialized": false,
+    "joblib_security_note": "tfidf_vectorizer.joblib diarsipkan tanpa deserialisasi otomatis untuk mencegah eksekusi kode berbahaya (pickle/joblib). Indeks TF-IDF dilatih ulang secara deterministik dari bpom_sumber_resmi.csv."
+  },
+  "jsonl_import": {
+    "total_lines": 52,
+    "valid_rows": 52,
+    "failed_rows": 0,
+    "errors": []
+  },
+  "csv_qa_import": {
+    "total_rows": 52,
+    "strict_review_count": 14
+  },
+  "sources_import": {
+    "total_rows": 9,
+    "source_ids": [
+      "BPOM-01",
+      "BPOM-02",
+      "BPOM-03",
+      "BPOM-04",
+      "BPOM-05",
+      "BPOM-06",
+      "BPOM-07",
+      "BPOM-08",
+      "BPOM-09"
+    ]
+  },
+  "candidate_links_import": {
+    "total_rows": 53,
+    "candidate_topic_rows": 15,
+    "unique_questions_with_candidate": 14,
+    "questions_needing_reference": 38
+  },
+  "plants_import": {
+    "total_plants_created": 30,
+    "plants_with_scientific_name": 27,
+    "plants_local_name_only": 3,
+    "merged_duplicate_mentions": [
+      {
+        "qa_id": 3,
+        "nama_tanaman": "Meniran",
+        "target_slug": "meniran",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 3,
+        "nama_tanaman": "Seledri",
+        "target_slug": "seledri",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 9,
+        "nama_tanaman": "Kencur",
+        "target_slug": "kencur",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 9,
+        "nama_tanaman": "Asam Jawa",
+        "target_slug": "asam-jawa",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Jahe",
+        "target_slug": "jahe",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Kunyit",
+        "target_slug": "kunyit",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Temulawak",
+        "target_slug": "temulawak",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Kencur",
+        "target_slug": "kencur",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Lengkuas",
+        "target_slug": "lengkuas",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Sereh",
+        "target_slug": "sereh",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Lidah Buaya",
+        "target_slug": "lidah-buaya",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Kumis Kucing",
+        "target_slug": "kumis-kucing",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Sambiloto",
+        "target_slug": "sambiloto",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 13,
+        "nama_tanaman": "Daun Sirih",
+        "target_slug": "daun-sirih",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 19,
+        "nama_tanaman": "Kunyit",
+        "target_slug": "kunyit",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 24,
+        "nama_tanaman": "Kayu Secang",
+        "target_slug": "kayu-secang",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 24,
+        "nama_tanaman": "Jahe",
+        "target_slug": "jahe",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 24,
+        "nama_tanaman": "Kayu Manis",
+        "target_slug": "kayu-manis",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 24,
+        "nama_tanaman": "Cengkeh",
+        "target_slug": "cengkeh",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 24,
+        "nama_tanaman": "Pala",
+        "target_slug": "pala",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 24,
+        "nama_tanaman": "Kelapa",
+        "target_slug": "kelapa",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 25,
+        "nama_tanaman": "Kelapa",
+        "target_slug": "kelapa",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 25,
+        "nama_tanaman": "Cengkeh",
+        "target_slug": "cengkeh",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 25,
+        "nama_tanaman": "Sereh",
+        "target_slug": "sereh",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 30,
+        "nama_tanaman": "Kunyit",
+        "target_slug": "kunyit",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 30,
+        "nama_tanaman": "Asam Jawa",
+        "target_slug": "asam-jawa",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 31,
+        "nama_tanaman": "Jahe",
+        "target_slug": "jahe",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 31,
+        "nama_tanaman": "Kunyit",
+        "target_slug": "kunyit",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 31,
+        "nama_tanaman": "Kencur",
+        "target_slug": "kencur",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 31,
+        "nama_tanaman": "Cengkeh",
+        "target_slug": "cengkeh",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 31,
+        "nama_tanaman": "Kayu Manis",
+        "target_slug": "kayu-manis",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 31,
+        "nama_tanaman": "Pala",
+        "target_slug": "pala",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 31,
+        "nama_tanaman": "Kelapa",
+        "target_slug": "kelapa",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 32,
+        "nama_tanaman": "Daun Sirih",
+        "target_slug": "daun-sirih",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 32,
+        "nama_tanaman": "Kunyit",
+        "target_slug": "kunyit",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 32,
+        "nama_tanaman": "Jahe",
+        "target_slug": "jahe",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 32,
+        "nama_tanaman": "Kencur",
+        "target_slug": "kencur",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 39,
+        "nama_tanaman": "Kunyit",
+        "target_slug": "kunyit",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 39,
+        "nama_tanaman": "Jahe",
+        "target_slug": "jahe",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Jahe",
+        "target_slug": "jahe",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Kunyit",
+        "target_slug": "kunyit",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Sereh",
+        "target_slug": "sereh",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Lidah Buaya",
+        "target_slug": "lidah-buaya",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Daun Sirih",
+        "target_slug": "daun-sirih",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Kumis Kucing",
+        "target_slug": "kumis-kucing",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Daun Binahong",
+        "target_slug": "daun-binahong",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Daun Pepaya",
+        "target_slug": "daun-pepaya",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Daun Jambu Biji",
+        "target_slug": "daun-jambu-biji",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 47,
+        "nama_tanaman": "Kencur",
+        "target_slug": "kencur",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 49,
+        "nama_tanaman": "Kencur",
+        "target_slug": "kencur",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 49,
+        "nama_tanaman": "Kunyit",
+        "target_slug": "kunyit",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 49,
+        "nama_tanaman": "Sambiloto",
+        "target_slug": "sambiloto",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 49,
+        "nama_tanaman": "Cabe Puyang",
+        "target_slug": "cabe-puyang",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 49,
+        "nama_tanaman": "Asam Jawa",
+        "target_slug": "asam-jawa",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 52,
+        "nama_tanaman": "Kunyit",
+        "target_slug": "kunyit",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 52,
+        "nama_tanaman": "Temu Giring",
+        "target_slug": "temu-giring",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      },
+      {
+        "qa_id": 52,
+        "nama_tanaman": "Kencur",
+        "target_slug": "kencur",
+        "tindakan": "Digabungkan ke entitas tanaman yang sudah ada melalui relasi PlantQALink"
+      }
+    ],
+    "skipped_non_plant_qa": [
+      {
+        "qa_id": 1,
+        "pertanyaan": "Apa itu pengobatan tradisional?",
+        "topik": "praktik tradisional",
+        "alasan": "Entri membahas praktik tradisional (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 2,
+        "pertanyaan": "Apa itu jamu?",
+        "topik": "jamu",
+        "alasan": "Entri membahas jamu (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 3,
+        "pertanyaan": "Apa perbedaan Jamu, Obat Herbal Terstandar, dan Fitofarmaka?",
+        "topik": "regulasi",
+        "alasan": "Entri membahas regulasi (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 4,
+        "pertanyaan": "Apa itu tanaman obat?",
+        "topik": "tanaman",
+        "alasan": "Entri membahas tanaman (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 9,
+        "pertanyaan": "Apa itu jamu beras kencur?",
+        "topik": "jamu",
+        "alasan": "Entri membahas jamu (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 13,
+        "pertanyaan": "Apa itu TOGA?",
+        "topik": "tanaman",
+        "alasan": "Entri membahas tanaman (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 19,
+        "pertanyaan": "Apa itu loloh dalam pengobatan tradisional Bali?",
+        "topik": "jamu",
+        "alasan": "Entri membahas jamu (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 24,
+        "pertanyaan": "Apa itu wedang uwuh?",
+        "topik": "jamu",
+        "alasan": "Entri membahas jamu (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 25,
+        "pertanyaan": "Apa itu minyak gosok tradisional?",
+        "topik": "jamu",
+        "alasan": "Entri membahas jamu (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 30,
+        "pertanyaan": "Bagaimana cara membuat jamu kunyit asam?",
+        "topik": "jamu",
+        "alasan": "Entri membahas jamu (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 31,
+        "pertanyaan": "Apa itu boreh dalam tradisi Bali?",
+        "topik": "praktik tradisional",
+        "alasan": "Entri membahas praktik tradisional (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 32,
+        "pertanyaan": "Apa itu mandi rempah pasca melahirkan?",
+        "topik": "praktik tradisional",
+        "alasan": "Entri membahas praktik tradisional (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 34,
+        "pertanyaan": "Apa itu akupunktur dan apakah diakui di Indonesia?",
+        "topik": "praktik tradisional",
+        "alasan": "Entri membahas praktik tradisional (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 35,
+        "pertanyaan": "Apa itu bekam (hijamah) dan manfaatnya?",
+        "topik": "praktik tradisional",
+        "alasan": "Entri membahas praktik tradisional (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 36,
+        "pertanyaan": "Apa khasiat madu untuk kesehatan?",
+        "topik": "jamu",
+        "alasan": "Entri membahas jamu (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 38,
+        "pertanyaan": "Apa peringatan penting tentang pengobatan tradisional?",
+        "topik": "keamanan",
+        "alasan": "Entri membahas keamanan (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 39,
+        "pertanyaan": "Herbal apa saja yang berbahaya jika dikonsumsi bersamaan dengan obat medis?",
+        "topik": "keamanan",
+        "alasan": "Entri membahas keamanan (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 40,
+        "pertanyaan": "Apa itu Sinshe dalam pengobatan tradisional?",
+        "topik": "praktik tradisional",
+        "alasan": "Entri membahas praktik tradisional (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 42,
+        "pertanyaan": "Apa itu Usada Bali?",
+        "topik": "praktik tradisional",
+        "alasan": "Entri membahas praktik tradisional (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 45,
+        "pertanyaan": "Bagaimana regulasi obat tradisional di Indonesia?",
+        "topik": "regulasi",
+        "alasan": "Entri membahas regulasi (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 46,
+        "pertanyaan": "Apa itu BKO dalam obat tradisional?",
+        "topik": "keamanan",
+        "alasan": "Entri membahas keamanan (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 47,
+        "pertanyaan": "Apa saja tanaman obat yang mudah ditanam di pekarangan?",
+        "topik": "tanaman",
+        "alasan": "Entri membahas tanaman (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 49,
+        "pertanyaan": "Apa itu jamu gendong?",
+        "topik": "jamu",
+        "alasan": "Entri membahas jamu (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 50,
+        "pertanyaan": "Apa perbedaan obat tradisional dan obat modern?",
+        "topik": "regulasi",
+        "alasan": "Entri membahas regulasi (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      },
+      {
+        "qa_id": 52,
+        "pertanyaan": "Apa itu tapel dalam perawatan tradisional Jawa?",
+        "topik": "praktik tradisional",
+        "alasan": "Entri membahas praktik tradisional (bukan spesies tanaman tunggal); disimpan pada Pengetahuan & Tanya Jawab."
+      }
+    ]
+  },
+  "artifacts_audit": {
+    "bpom_semantic_embeddings": {
+      "shape": [
+        9,
+        384
+      ],
+      "dtype": "float32"
+    },
+    "template_evaluasi_manual": {
+      "total_rows": 52,
+      "gold_source_id_filled": 0,
+      "note": "Semua gold_source_id masih kosong; metrik akurasi tidak diklaim."
+    }
+  },
+  "recipes_import": {
+    "total_recipes_imported": 19,
+    "froti_curated_count": 19,
+    "recipe_slugs": [
+      "froti-001-sambiloto-demam",
+      "froti-002-kencur-sakit-kepala-sebelah",
+      "froti-003-teh-sakit-kepala-sebelah",
+      "froti-004-sirih-sakit-tenggorokan",
+      "froti-005-timi-batuk-berdahak",
+      "froti-006-akar-manis-batuk-berdahak",
+      "froti-007-adas-batuk-berdahak",
+      "froti-008-jahe-leher-kaku",
+      "froti-009-kencur-terkilir",
+      "froti-010-lengkuas-terkilir",
+      "froti-011-alang-alang-panas-dalam",
+      "froti-012-daun-cincau-panas-dalam",
+      "froti-013-temu-hitam-nafsu-makan-berkurang",
+      "froti-014-pepaya-nafsu-makan-berkurang",
+      "froti-015-kunyit-perut-kembungbegah",
+      "froti-016-jahe-gangguan-lambung",
+      "froti-017-jahe-masuk-angin",
+      "froti-018-kayu-manis-nyeri-haid",
+      "froti-019-andong-haid-tidak-teratur"
+    ],
+    "active_dataset": "dataset_FROTI_HerbID_bersih.csv",
+    "froti_status": "Terintegrasi 19 entri resmi Formularium Ramuan Obat Tradisional Indonesia (FROTI - KMK HK.01.07/MENKES/187/2017) sebagai satu-satunya korpus ramuan aktif."
+  }
+}

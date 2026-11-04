@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Backend: FastAPI (HerbID)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "app.main:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8000",
+        "--app-dir",
+        "backend",
+        "--reload"
+      ],
+      "jinja": true,
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/backend"
+      }
+    }
+  ]
+}
